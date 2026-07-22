@@ -1,0 +1,4992 @@
+[
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "UN6050",
+        "Renk Kodu": "RENKSIZ",
+        "Beden": "200ML",
+        "Envanter": 322,
+        "Barkod": 8001045851253,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "SUPERSTEP",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "UN8921",
+        "Renk Kodu": "BEYAZ",
+        "Beden": "75ML",
+        "Envanter": 154,
+        "Barkod": 8001045851352,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "UN6542",
+        "Renk Kodu": "RENKSIZ",
+        "Beden": "100ML",
+        "Envanter": 119,
+        "Barkod": 8001045851260,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "UN8930",
+        "Renk Kodu": "-",
+        "Beden": "8GR",
+        "Envanter": 102,
+        "Barkod": 8001045851376,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "UN8910",
+        "Renk Kodu": "NTRL",
+        "Beden": "-",
+        "Envanter": 40,
+        "Barkod": 8001045851345,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2431",
+        "Renk Kodu": "31G",
+        "Beden": "T4",
+        "Envanter": 35,
+        "Barkod": 8001047859868,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2431",
+        "Renk Kodu": "31S",
+        "Beden": "T4",
+        "Envanter": 34,
+        "Barkod": 8001047859899,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN1203",
+        "Renk Kodu": 31,
+        "Beden": 3640,
+        "Envanter": 32,
+        "Barkod": 8001044366833,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IJ5616",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 29,
+        "Barkod": 8001058892915,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": 31,
+        "Beden": "T4",
+        "Envanter": 24,
+        "Barkod": 8001028991105,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IJ0733",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 23,
+        "Barkod": 8001055315561,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "EFS",
+        "Beden": 120,
+        "Envanter": 21,
+        "Barkod": 8001043264024,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": "BGS",
+        "Beden": "T4",
+        "Envanter": 20,
+        "Barkod": 8001028998494,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2431",
+        "Renk Kodu": "31S",
+        "Beden": "T6",
+        "Envanter": 20,
+        "Barkod": 8001047859905,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IJ5616",
+        "Renk Kodu": "-",
+        "Beden": "S",
+        "Envanter": 20,
+        "Barkod": 8001058892922,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IJ5616",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 18,
+        "Barkod": 8001058892908,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN1203",
+        "Renk Kodu": 31,
+        "Beden": 4145,
+        "Envanter": 17,
+        "Barkod": 8001044366840,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2100",
+        "Renk Kodu": "00L",
+        "Beden": "T4",
+        "Envanter": 15,
+        "Barkod": 8001036143190,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2411",
+        "Renk Kodu": "11L",
+        "Beden": "T4",
+        "Envanter": 15,
+        "Barkod": 8001047858205,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": "BGS",
+        "Beden": "T2",
+        "Envanter": 14,
+        "Barkod": 8001028998487,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": 1,
+        "Beden": "T2",
+        "Envanter": 14,
+        "Barkod": 8001028991068,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10007075,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 14,
+        "Barkod": 8001045649164,
+        "Sezon": "22SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2410",
+        "Renk Kodu": "10B",
+        "Beden": "T4",
+        "Envanter": 13,
+        "Barkod": 8001047858106,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN1004",
+        "Renk Kodu": "GKR",
+        "Beden": 3640,
+        "Envanter": 12,
+        "Barkod": 8001044360954,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IJ0733",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 12,
+        "Barkod": 8001055315554,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "FM0676",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 12,
+        "Barkod": 8001045007902,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "NPS",
+        "Beden": 120,
+        "Envanter": 12,
+        "Barkod": 8001043264116,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2410",
+        "Renk Kodu": "10B",
+        "Beden": "T6",
+        "Envanter": 11,
+        "Barkod": 8001047858113,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": "BGL",
+        "Beden": "T2",
+        "Envanter": 11,
+        "Barkod": 8001028998456,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "LAS",
+        "Beden": 120,
+        "Envanter": 11,
+        "Barkod": 8001043264079,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "GOK",
+        "Beden": 120,
+        "Envanter": 11,
+        "Barkod": 8001043264031,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA4183",
+        "Renk Kodu": "5KC",
+        "Beden": "T6",
+        "Envanter": 10,
+        "Barkod": 8001044380365,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2416",
+        "Renk Kodu": "16S",
+        "Beden": "T4",
+        "Envanter": 10,
+        "Barkod": 8001047858557,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA4188",
+        "Renk Kodu": "G8K",
+        "Beden": "T4",
+        "Envanter": 10,
+        "Barkod": 8001047283557,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IJ0733",
+        "Renk Kodu": "-",
+        "Beden": "S",
+        "Envanter": 10,
+        "Barkod": 8001055315578,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "MXS",
+        "Beden": 120,
+        "Envanter": 10,
+        "Barkod": 8001043264109,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "YSB",
+        "Beden": 120,
+        "Envanter": 10,
+        "Barkod": 8001043264178,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UABW",
+        "Renk Kodu": "ANT",
+        "Beden": 3640,
+        "Envanter": 9,
+        "Barkod": 8001047612395,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2401",
+        "Renk Kodu": "01G",
+        "Beden": "T4",
+        "Envanter": 9,
+        "Barkod": 8001047857307,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": 1,
+        "Beden": "T4",
+        "Envanter": 9,
+        "Barkod": 8001028991075,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "YSS",
+        "Beden": 120,
+        "Envanter": 9,
+        "Barkod": 8001043264185,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2401",
+        "Renk Kodu": "01G",
+        "Beden": "T6",
+        "Envanter": 8,
+        "Barkod": 8001047857314,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2410",
+        "Renk Kodu": "10Y",
+        "Beden": "T4",
+        "Envanter": 8,
+        "Barkod": 8001047858168,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2100",
+        "Renk Kodu": "00B",
+        "Beden": "T4",
+        "Envanter": 8,
+        "Barkod": 8001047857239,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "B75806",
+        "Renk Kodu": "-",
+        "Beden": 11,
+        "Envanter": 8,
+        "Barkod": 8001055283211,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "B75807",
+        "Renk Kodu": "-",
+        "Beden": 9.5,
+        "Envanter": 8,
+        "Barkod": 8001032122847,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "745SFA0017T",
+        "Renk Kodu": "WN8",
+        "Beden": "T5",
+        "Envanter": 8,
+        "Barkod": 8001048167092,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "NTS",
+        "Beden": 120,
+        "Envanter": 8,
+        "Barkod": 8001043264130,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "NSS",
+        "Beden": 120,
+        "Envanter": 8,
+        "Barkod": 8001043264123,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "LLS",
+        "Beden": 120,
+        "Envanter": 8,
+        "Barkod": 8001043264086,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "MOR",
+        "Beden": 120,
+        "Envanter": 8,
+        "Barkod": 8001046910539,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10012056,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 8,
+        "Barkod": 8001056974590,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN2023",
+        "Renk Kodu": "PYE",
+        "Beden": 3640,
+        "Envanter": 7,
+        "Barkod": 8001045850423,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN0890",
+        "Renk Kodu": "SYH",
+        "Beden": 3134,
+        "Envanter": 7,
+        "Barkod": 8001044365904,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UK0701",
+        "Renk Kodu": "BMM",
+        "Beden": 2730,
+        "Envanter": 7,
+        "Barkod": 8001044362958,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA4188",
+        "Renk Kodu": "KZA",
+        "Beden": "T4",
+        "Envanter": 7,
+        "Barkod": 8001047283564,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2410",
+        "Renk Kodu": "10Y",
+        "Beden": "T6",
+        "Envanter": 7,
+        "Barkod": 8001047858175,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0415",
+        "Renk Kodu": "15B",
+        "Beden": "T2",
+        "Envanter": 7,
+        "Barkod": 8001022265707,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": "BGL",
+        "Beden": "T4",
+        "Envanter": 7,
+        "Barkod": 8001028998463,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IC1323",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 7,
+        "Barkod": 8001055225853,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "NYS",
+        "Beden": 120,
+        "Envanter": 7,
+        "Barkod": 8001043264147,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "PUS",
+        "Beden": 120,
+        "Envanter": 7,
+        "Barkod": 8001043264154,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10012058,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 7,
+        "Barkod": 8001056974613,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UKSW",
+        "Renk Kodu": "SYH",
+        "Beden": 3640,
+        "Envanter": 6,
+        "Barkod": 8001047613019,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "U9060NTB",
+        "Renk Kodu": 244,
+        "Beden": 40.5,
+        "Envanter": 6,
+        "Barkod": 8001060931800,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN2034",
+        "Renk Kodu": "MYK",
+        "Beden": 3640,
+        "Envanter": 6,
+        "Barkod": 8001045850577,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA4183",
+        "Renk Kodu": "5KC",
+        "Beden": "T4",
+        "Envanter": 6,
+        "Barkod": 8001044380341,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0407",
+        "Renk Kodu": 166,
+        "Beden": "T4",
+        "Envanter": 6,
+        "Barkod": 8001022281455,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9696C",
+        "Renk Kodu": 600,
+        "Beden": 9.5,
+        "Envanter": 6,
+        "Barkod": 8001025381626,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9691C",
+        "Renk Kodu": 612,
+        "Beden": 8.5,
+        "Envanter": 6,
+        "Barkod": 8001025371566,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9691C",
+        "Renk Kodu": 612,
+        "Beden": 9.5,
+        "Envanter": 6,
+        "Barkod": 8001025372006,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M7650C",
+        "Renk Kodu": 102,
+        "Beden": 6.5,
+        "Envanter": 6,
+        "Barkod": 8001025386546,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M5039C",
+        "Renk Kodu": 6,
+        "Beden": 10,
+        "Envanter": 6,
+        "Barkod": 8001025382807,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "FM0676",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 6,
+        "Barkod": 8001045007896,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EM0EM01520",
+        "Renk Kodu": "BDS",
+        "Beden": 44,
+        "Envanter": 6,
+        "Barkod": 8001061011525,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 401679,
+        "Renk Kodu": 3,
+        "Beden": 5,
+        "Envanter": 6,
+        "Barkod": 8001062080391,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "TAKE A BAACIK",
+        "Ürün Grubu": "AYAKKABI B",
+        "Ürün Kodu": "35TB",
+        "Renk Kodu": "GRS",
+        "Beden": 120,
+        "Envanter": 6,
+        "Barkod": 8001043264048,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10009843,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 6,
+        "Barkod": 8001057074350,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10009423,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 6,
+        "Barkod": 8001052007476,
+        "Sezon": "23SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10011473,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 6,
+        "Barkod": 8001056974521,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "USM4",
+        "Renk Kodu": "ANT",
+        "Beden": 4145,
+        "Envanter": 5,
+        "Barkod": 8001047613699,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "TF0504",
+        "Renk Kodu": "70V",
+        "Beden": "T38",
+        "Envanter": 5,
+        "Barkod": 8001058317081,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2432",
+        "Renk Kodu": "32S",
+        "Beden": "T4",
+        "Envanter": 5,
+        "Barkod": 8001047860017,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0403",
+        "Renk Kodu": 31,
+        "Beden": "T4",
+        "Envanter": 5,
+        "Barkod": 8001052546173,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0424",
+        "Renk Kodu": 31,
+        "Beden": "T4",
+        "Envanter": 5,
+        "Barkod": 8001055859614,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9696C",
+        "Renk Kodu": 600,
+        "Beden": 10,
+        "Envanter": 5,
+        "Barkod": 8001025381633,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9691C",
+        "Renk Kodu": 612,
+        "Beden": 11,
+        "Envanter": 5,
+        "Barkod": 8001025372037,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IG4279",
+        "Renk Kodu": "-",
+        "Beden": 6.5,
+        "Envanter": 5,
+        "Barkod": 8001061851114,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IG3755",
+        "Renk Kodu": "-",
+        "Beden": 6,
+        "Envanter": 5,
+        "Barkod": 8001055309287,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "GD3575",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 5,
+        "Barkod": 8001045113351,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "FM0677",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 5,
+        "Barkod": 8001045007926,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "FM0676",
+        "Renk Kodu": "-",
+        "Beden": "S",
+        "Envanter": 5,
+        "Barkod": 8001045007919,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "FM0677",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 5,
+        "Barkod": 8001045007933,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EM0EM01520",
+        "Renk Kodu": "BDS",
+        "Beden": 42,
+        "Envanter": 5,
+        "Barkod": 8001061009737,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EM0EM01520",
+        "Renk Kodu": "BDS",
+        "Beden": 43,
+        "Envanter": 5,
+        "Barkod": 8001061009751,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "B75806",
+        "Renk Kodu": "-",
+        "Beden": 10.5,
+        "Envanter": 5,
+        "Barkod": 8001032122731,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "A06435C",
+        "Renk Kodu": 1,
+        "Beden": 4.5,
+        "Envanter": 5,
+        "Barkod": 8001054914772,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 887497,
+        "Renk Kodu": 4,
+        "Beden": "35/38",
+        "Envanter": 5,
+        "Barkod": 8001055981186,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "568498C",
+        "Renk Kodu": 102,
+        "Beden": 9,
+        "Envanter": 5,
+        "Barkod": 8001036543976,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 401679,
+        "Renk Kodu": 3,
+        "Beden": 4,
+        "Envanter": 5,
+        "Barkod": 8001062076813,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 401679,
+        "Renk Kodu": 3,
+        "Beden": 3.5,
+        "Envanter": 5,
+        "Barkod": 8001062076691,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 396464,
+        "Renk Kodu": 1,
+        "Beden": 9.5,
+        "Envanter": 5,
+        "Barkod": 8001054857574,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10010017,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 5,
+        "Barkod": 8001052007513,
+        "Sezon": "23SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10007217,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 5,
+        "Barkod": 8001043702274,
+        "Sezon": "22SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10011908,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 5,
+        "Barkod": 8001056974576,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10008213,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 5,
+        "Barkod": 8001043702410,
+        "Sezon": "22SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "EALTI",
+        "Ürün Kodu": "XH2750",
+        "Renk Kodu": 31,
+        "Beden": "TM",
+        "Envanter": 4,
+        "Barkod": 8001055493382,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "U9060NTB",
+        "Renk Kodu": 244,
+        "Beden": 40,
+        "Envanter": 4,
+        "Barkod": 8001060931794,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN1205",
+        "Renk Kodu": 311,
+        "Beden": 3640,
+        "Envanter": 4,
+        "Barkod": 8001044367052,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN0890",
+        "Renk Kodu": "SYH",
+        "Beden": 2730,
+        "Envanter": 4,
+        "Barkod": 8001044365669,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "TF0504",
+        "Renk Kodu": "70V",
+        "Beden": "T36",
+        "Envanter": 4,
+        "Barkod": 8001058316336,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2401",
+        "Renk Kodu": "01S",
+        "Beden": "T4",
+        "Envanter": 4,
+        "Barkod": 8001047857345,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2431",
+        "Renk Kodu": "31B",
+        "Beden": "T6",
+        "Envanter": 4,
+        "Barkod": 8001047859844,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2401",
+        "Renk Kodu": "01B",
+        "Beden": "T4",
+        "Envanter": 4,
+        "Barkod": 8001047857260,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A7W4GKT01",
+        "Renk Kodu": "-",
+        "Beden": 115,
+        "Envanter": 4,
+        "Barkod": 8001053610996,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2416",
+        "Renk Kodu": "16S",
+        "Beden": "T6",
+        "Envanter": 4,
+        "Barkod": 8001047858564,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": 1,
+        "Beden": "T6",
+        "Envanter": 4,
+        "Barkod": 8001028991082,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0424",
+        "Renk Kodu": 166,
+        "Beden": "T4",
+        "Envanter": 4,
+        "Barkod": 8001055859669,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": 166,
+        "Beden": "T2",
+        "Envanter": 4,
+        "Barkod": 8001028998425,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": "CCA",
+        "Beden": "T4",
+        "Envanter": 4,
+        "Barkod": 8001028998524,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A331HKY41",
+        "Renk Kodu": "-",
+        "Beden": 80,
+        "Envanter": 4,
+        "Barkod": 8001046860513,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A5G2FKY41",
+        "Renk Kodu": "-",
+        "Beden": 90,
+        "Envanter": 4,
+        "Barkod": 8001053609167,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9621C",
+        "Renk Kodu": 600,
+        "Beden": 11,
+        "Envanter": 4,
+        "Barkod": 8001025379241,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9621C",
+        "Renk Kodu": 600,
+        "Beden": 10,
+        "Envanter": 4,
+        "Barkod": 8001025379210,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9621C",
+        "Renk Kodu": 600,
+        "Beden": 9.5,
+        "Envanter": 4,
+        "Barkod": 8001025379203,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M7650C",
+        "Renk Kodu": 102,
+        "Beden": 7,
+        "Envanter": 4,
+        "Barkod": 8001025386553,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M7652C",
+        "Renk Kodu": 102,
+        "Beden": 11,
+        "Envanter": 4,
+        "Barkod": 8001025382999,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M7652C",
+        "Renk Kodu": 102,
+        "Beden": 10,
+        "Envanter": 4,
+        "Barkod": 8001025382548,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IG3755",
+        "Renk Kodu": "-",
+        "Beden": 5.5,
+        "Envanter": 4,
+        "Barkod": 8001055309270,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IF3813",
+        "Renk Kodu": "-",
+        "Beden": 8,
+        "Envanter": 4,
+        "Barkod": 8001055303773,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "HB5881",
+        "Renk Kodu": "-",
+        "Beden": "S",
+        "Envanter": 4,
+        "Barkod": 8001045154514,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "FM0677",
+        "Renk Kodu": "-",
+        "Beden": "S",
+        "Envanter": 4,
+        "Barkod": 8001045007940,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "EASTPAK",
+        "Ürün Grubu": "CANTA",
+        "Ürün Kodu": "EK000620",
+        "Renk Kodu": "L83",
+        "Beden": "OS",
+        "Envanter": 4,
+        "Barkod": 8001045112385,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "BB5476",
+        "Renk Kodu": "-",
+        "Beden": 10.5,
+        "Envanter": 4,
+        "Barkod": 8001030811392,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "BB5476",
+        "Renk Kodu": "-",
+        "Beden": 9.5,
+        "Envanter": 4,
+        "Barkod": 8001030811385,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "BB5476",
+        "Renk Kodu": "-",
+        "Beden": 8,
+        "Envanter": 4,
+        "Barkod": 8001030811354,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 887498,
+        "Renk Kodu": 9,
+        "Beden": "43/46",
+        "Envanter": 4,
+        "Barkod": 8001055981261,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 907957,
+        "Renk Kodu": 1,
+        "Beden": "35/38",
+        "Envanter": 4,
+        "Barkod": 8001055981360,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 907957,
+        "Renk Kodu": 3,
+        "Beden": "35/38",
+        "Envanter": 4,
+        "Barkod": 8001055981377,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "748SFA0085",
+        "Renk Kodu": "AGI",
+        "Beden": "T5",
+        "Envanter": 4,
+        "Barkod": 8001055090925,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "747SMA0013",
+        "Renk Kodu": "5T9",
+        "Beden": "T9",
+        "Envanter": 4,
+        "Barkod": 8001052402745,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "747SMA0064",
+        "Renk Kodu": "HT3",
+        "Beden": "T9",
+        "Envanter": 4,
+        "Barkod": 8001052411341,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "747SFA0055T",
+        "Renk Kodu": "65T",
+        "Beden": "T5",
+        "Envanter": 4,
+        "Barkod": 8001055885033,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "561675C",
+        "Renk Kodu": 1,
+        "Beden": 8.5,
+        "Envanter": 4,
+        "Barkod": 8001036644529,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 400648,
+        "Renk Kodu": 1,
+        "Beden": 12,
+        "Envanter": 4,
+        "Barkod": 8001062065916,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 401406,
+        "Renk Kodu": 1,
+        "Beden": 7,
+        "Envanter": 4,
+        "Barkod": 8001062082463,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 400648,
+        "Renk Kodu": 1,
+        "Beden": 13,
+        "Envanter": 4,
+        "Barkod": 8001062066388,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 396464,
+        "Renk Kodu": 1,
+        "Beden": 8.5,
+        "Envanter": 4,
+        "Barkod": 8001054857550,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 396464,
+        "Renk Kodu": 1,
+        "Beden": 8,
+        "Envanter": 4,
+        "Barkod": 8001054857543,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "162053C",
+        "Renk Kodu": 247,
+        "Beden": 8.5,
+        "Envanter": 4,
+        "Barkod": 8001041066996,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10013416,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 4,
+        "Barkod": 8001062164695,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UGG",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 1131978,
+        "Renk Kodu": "BLK",
+        "Beden": 38,
+        "Envanter": 4,
+        "Barkod": 8001047422192,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 10001,
+        "Renk Kodu": "5BN",
+        "Beden": "38-39",
+        "Envanter": 4,
+        "Barkod": 8001061902618,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10010023,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 4,
+        "Barkod": 8001062164473,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "WS327NKC",
+        "Renk Kodu": 161,
+        "Beden": 39,
+        "Envanter": 3,
+        "Barkod": 8001060933255,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "USM3",
+        "Renk Kodu": "GRI",
+        "Beden": 4145,
+        "Envanter": 3,
+        "Barkod": 8001047613644,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "WS327DBA",
+        "Renk Kodu": 106,
+        "Beden": 39,
+        "Envanter": 3,
+        "Barkod": 8001060933354,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN1007",
+        "Renk Kodu": "MVI",
+        "Beden": 3640,
+        "Envanter": 3,
+        "Barkod": 8001044837265,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN2029",
+        "Renk Kodu": "YYG",
+        "Beden": 3640,
+        "Envanter": 3,
+        "Barkod": 8001045850508,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "U9060NTB",
+        "Renk Kodu": 244,
+        "Beden": 39.5,
+        "Envanter": 3,
+        "Barkod": 8001060931787,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN0890",
+        "Renk Kodu": "GRL",
+        "Beden": 2730,
+        "Envanter": 3,
+        "Barkod": 8001044365188,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN1205",
+        "Renk Kodu": 31,
+        "Beden": 4145,
+        "Envanter": 3,
+        "Barkod": 8001044367045,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN1015",
+        "Renk Kodu": "GKR",
+        "Beden": 3640,
+        "Envanter": 3,
+        "Barkod": 8001045666154,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED 4",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN2006",
+        "Renk Kodu": "BYP",
+        "Beden": 3640,
+        "Envanter": 3,
+        "Barkod": 8001044361142,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UABM",
+        "Renk Kodu": "ANT",
+        "Beden": 4145,
+        "Envanter": 3,
+        "Barkod": 8001047612296,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "U9060NTC",
+        "Renk Kodu": 341,
+        "Beden": 40.5,
+        "Envanter": 3,
+        "Barkod": 8001060932388,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "U9060NTC",
+        "Renk Kodu": 341,
+        "Beden": 39.5,
+        "Envanter": 3,
+        "Barkod": 8001060932340,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "TH2753",
+        "Renk Kodu": 1,
+        "Beden": "T6",
+        "Envanter": 3,
+        "Barkod": 8001055382587,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "TH2753",
+        "Renk Kodu": 1,
+        "Beden": "T3",
+        "Envanter": 3,
+        "Barkod": 8001055381672,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "TH1285",
+        "Renk Kodu": 166,
+        "Beden": "T4",
+        "Envanter": 3,
+        "Barkod": 8001047898119,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "SH2741",
+        "Renk Kodu": 31,
+        "Beden": "TM",
+        "Envanter": 3,
+        "Barkod": 8001055392722,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2100",
+        "Renk Kodu": "00G",
+        "Beden": "T4",
+        "Envanter": 3,
+        "Barkod": 8001036407537,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2431",
+        "Renk Kodu": "31S",
+        "Beden": "T2",
+        "Envanter": 3,
+        "Barkod": 8001047859882,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2100",
+        "Renk Kodu": "00A",
+        "Beden": "T4",
+        "Envanter": 3,
+        "Barkod": 8001036143183,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "SF0281",
+        "Renk Kodu": 31,
+        "Beden": "T34",
+        "Envanter": 3,
+        "Barkod": 8001046646247,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2428",
+        "Renk Kodu": "28S",
+        "Beden": "T4",
+        "Envanter": 3,
+        "Barkod": 8001047859684,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0426",
+        "Renk Kodu": "CCA",
+        "Beden": "T6",
+        "Envanter": 3,
+        "Barkod": 8001055860153,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0426",
+        "Renk Kodu": 1,
+        "Beden": "T4",
+        "Envanter": 3,
+        "Barkod": 8001055859997,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": 166,
+        "Beden": "T4",
+        "Envanter": 3,
+        "Barkod": 8001028998432,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": 31,
+        "Beden": "T2",
+        "Envanter": 3,
+        "Barkod": 8001028991099,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": 31,
+        "Beden": "T6",
+        "Envanter": 3,
+        "Barkod": 8001029001674,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0423",
+        "Renk Kodu": 166,
+        "Beden": "T4",
+        "Envanter": 3,
+        "Barkod": 8001055859485,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A7W4GKT01",
+        "Renk Kodu": "-",
+        "Beden": 90,
+        "Envanter": 3,
+        "Barkod": 8001053610934,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A5LWF5II1",
+        "Renk Kodu": "-",
+        "Beden": 90,
+        "Envanter": 3,
+        "Barkod": 8001060026735,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A5LWDR0G1",
+        "Renk Kodu": "-",
+        "Beden": 6,
+        "Envanter": 3,
+        "Barkod": 8001046913684,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A5LWD32F1",
+        "Renk Kodu": "-",
+        "Beden": 6,
+        "Envanter": 3,
+        "Barkod": 8001046913585,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "m9696c",
+        "Renk Kodu": 600,
+        "Beden": 7,
+        "Envanter": 3,
+        "Barkod": 8001025382784,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9696C",
+        "Renk Kodu": 600,
+        "Beden": 8.5,
+        "Envanter": 3,
+        "Barkod": 8001025381602,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9621C",
+        "Renk Kodu": 600,
+        "Beden": 8.5,
+        "Envanter": 3,
+        "Barkod": 8001025379180,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M5039C",
+        "Renk Kodu": 6,
+        "Beden": 8.5,
+        "Envanter": 3,
+        "Barkod": 8001025389059,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9691C",
+        "Renk Kodu": 612,
+        "Beden": 7,
+        "Envanter": 3,
+        "Barkod": 8001025371535,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M7650C",
+        "Renk Kodu": 102,
+        "Beden": 11,
+        "Envanter": 3,
+        "Barkod": 8001025372921,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9697C",
+        "Renk Kodu": 410,
+        "Beden": 11,
+        "Envanter": 3,
+        "Barkod": 8001025381862,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9691C",
+        "Renk Kodu": 612,
+        "Beden": 10,
+        "Envanter": 3,
+        "Barkod": 8001025372013,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH5706",
+        "Renk Kodu": "-",
+        "Beden": 3.5,
+        "Envanter": 3,
+        "Barkod": 8001061855938,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JI2634",
+        "Renk Kodu": "-",
+        "Beden": 4.5,
+        "Envanter": 3,
+        "Barkod": 8001061863568,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IJ5613",
+        "Renk Kodu": "-",
+        "Beden": "S",
+        "Envanter": 3,
+        "Barkod": 8001058892892,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CEKET",
+        "Ürün Kodu": "IW5867",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 3,
+        "Barkod": 8001058854296,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "HQ6912",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 3,
+        "Barkod": 8001052707512,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "GZ9650",
+        "Renk Kodu": "-",
+        "Beden": "6K",
+        "Envanter": 3,
+        "Barkod": 8001058105589,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "GZ9650",
+        "Renk Kodu": "-",
+        "Beden": "7,5K",
+        "Envanter": 3,
+        "Barkod": 8001058105596,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "GX3231",
+        "Renk Kodu": "-",
+        "Beden": 2,
+        "Envanter": 3,
+        "Barkod": 8001051729768,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FY7978",
+        "Renk Kodu": "-",
+        "Beden": "10,5K",
+        "Envanter": 3,
+        "Barkod": 8001048096996,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EM0EM01520",
+        "Renk Kodu": "0G1",
+        "Beden": 44,
+        "Envanter": 3,
+        "Barkod": 8001061009676,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EM0EM01520",
+        "Renk Kodu": "BDS",
+        "Beden": 45,
+        "Envanter": 3,
+        "Barkod": 8001061009775,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "B75807",
+        "Renk Kodu": "-",
+        "Beden": 8,
+        "Envanter": 3,
+        "Barkod": 8001032122816,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "B75807",
+        "Renk Kodu": "-",
+        "Beden": 9,
+        "Envanter": 3,
+        "Barkod": 8001032122830,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "A06435C",
+        "Renk Kodu": 1,
+        "Beden": 6.5,
+        "Envanter": 3,
+        "Barkod": 8001054914819,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "A06435C",
+        "Renk Kodu": 1,
+        "Beden": 5.5,
+        "Envanter": 3,
+        "Barkod": 8001054914796,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "A06435C",
+        "Renk Kodu": 1,
+        "Beden": 5,
+        "Envanter": 3,
+        "Barkod": 8001054914789,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "A06435C",
+        "Renk Kodu": 1,
+        "Beden": 3.5,
+        "Envanter": 3,
+        "Barkod": 8001054914758,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "A06436C",
+        "Renk Kodu": 286,
+        "Beden": 6,
+        "Envanter": 3,
+        "Barkod": 8001054914994,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "A06436C",
+        "Renk Kodu": 286,
+        "Beden": 3.5,
+        "Envanter": 3,
+        "Barkod": 8001054914949,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 887498,
+        "Renk Kodu": 4,
+        "Beden": "35/38",
+        "Envanter": 3,
+        "Barkod": 8001042993741,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "A04480C",
+        "Renk Kodu": 1,
+        "Beden": 8,
+        "Envanter": 3,
+        "Barkod": 8001052297655,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 887498,
+        "Renk Kodu": 5,
+        "Beden": "43/46",
+        "Envanter": 3,
+        "Barkod": 8001055981254,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 938372,
+        "Renk Kodu": 7,
+        "Beden": "35/38",
+        "Envanter": 3,
+        "Barkod": 8001055981476,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 907948,
+        "Renk Kodu": 1,
+        "Beden": "35/38",
+        "Envanter": 3,
+        "Barkod": 8001055981315,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 907987,
+        "Renk Kodu": 1,
+        "Beden": "43/46",
+        "Envanter": 3,
+        "Barkod": 8001055981391,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 907944,
+        "Renk Kodu": 1,
+        "Beden": 3942,
+        "Envanter": 3,
+        "Barkod": 8001053801158,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 887497,
+        "Renk Kodu": 4,
+        "Beden": "43/46",
+        "Envanter": 3,
+        "Barkod": 8001055981193,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": 907941,
+        "Renk Kodu": 2,
+        "Beden": "35/38",
+        "Envanter": 3,
+        "Barkod": 8001055981292,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "748SMA0025",
+        "Renk Kodu": 312,
+        "Beden": "T95",
+        "Envanter": 3,
+        "Barkod": 8001055106183,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "748SMA0064",
+        "Renk Kodu": 454,
+        "Beden": "T9",
+        "Envanter": 3,
+        "Barkod": 8001055118582,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "747SMA0103",
+        "Renk Kodu": "LT3",
+        "Beden": "T75",
+        "Envanter": 3,
+        "Barkod": 8001052416155,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "748SMA0031T",
+        "Renk Kodu": "02H",
+        "Beden": "T105",
+        "Envanter": 3,
+        "Barkod": 8001057109151,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "748SFA0032T",
+        "Renk Kodu": 10000000,
+        "Beden": "T55",
+        "Envanter": 3,
+        "Barkod": 8001057103579,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "747SMA0050",
+        "Renk Kodu": "BW8",
+        "Beden": "T9",
+        "Envanter": 3,
+        "Barkod": 8001052408891,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "748SFA0028T",
+        "Renk Kodu": "2J8",
+        "Beden": "T5",
+        "Envanter": 3,
+        "Barkod": 8001057105399,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "748SFA0028T",
+        "Renk Kodu": "2J8",
+        "Beden": "T4",
+        "Envanter": 3,
+        "Barkod": 8001057102893,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "747SMA0115",
+        "Renk Kodu": 312,
+        "Beden": "T95",
+        "Envanter": 3,
+        "Barkod": 8001052417565,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "746SMA0065T",
+        "Renk Kodu": 312,
+        "Beden": "T9",
+        "Envanter": 3,
+        "Barkod": 8001053008946,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "745SFA0088T",
+        "Renk Kodu": "Y21",
+        "Beden": "T4",
+        "Envanter": 3,
+        "Barkod": 8001048170733,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "745SFA0017T",
+        "Renk Kodu": "WN8",
+        "Beden": "T35",
+        "Envanter": 3,
+        "Barkod": 8001048166910,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "T-SHIRT",
+        "Ürün Kodu": 679188,
+        "Renk Kodu": 1,
+        "Beden": "M",
+        "Envanter": 3,
+        "Barkod": 8001056032856,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": 626746,
+        "Renk Kodu": 2,
+        "Beden": "M",
+        "Envanter": 3,
+        "Barkod": 8001059077014,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": 624226,
+        "Renk Kodu": 1,
+        "Beden": "S",
+        "Envanter": 3,
+        "Barkod": 8001056009896,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "561675C",
+        "Renk Kodu": 1,
+        "Beden": 6,
+        "Envanter": 3,
+        "Barkod": 8001036644512,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "568498C",
+        "Renk Kodu": 102,
+        "Beden": 8,
+        "Envanter": 3,
+        "Barkod": 8001036543952,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "561675C",
+        "Renk Kodu": 1,
+        "Beden": 9,
+        "Envanter": 3,
+        "Barkod": 8001032045702,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 401679,
+        "Renk Kodu": 3,
+        "Beden": 4.5,
+        "Envanter": 3,
+        "Barkod": 8001062076912,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 401679,
+        "Renk Kodu": 3,
+        "Beden": 6.5,
+        "Envanter": 3,
+        "Barkod": 8001062084481,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "SKECHERS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 51591,
+        "Renk Kodu": "BBK",
+        "Beden": 10.5,
+        "Envanter": 3,
+        "Barkod": 8001032147826,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 401406,
+        "Renk Kodu": 1,
+        "Beden": 8,
+        "Envanter": 3,
+        "Barkod": 8001062082579,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 396464,
+        "Renk Kodu": 13,
+        "Beden": 9,
+        "Envanter": 3,
+        "Barkod": 8001059069323,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 396464,
+        "Renk Kodu": 3,
+        "Beden": 5,
+        "Envanter": 3,
+        "Barkod": 8001054857635,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 396464,
+        "Renk Kodu": 1,
+        "Beden": 9,
+        "Envanter": 3,
+        "Barkod": 8001054857567,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 394463,
+        "Renk Kodu": 15,
+        "Beden": 7,
+        "Envanter": 3,
+        "Barkod": 8001062179972,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "PUMA",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 386607,
+        "Renk Kodu": 1,
+        "Beden": 6,
+        "Envanter": 3,
+        "Barkod": 8001055872927,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "SKECHERS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 237301,
+        "Renk Kodu": "BKYL",
+        "Beden": 10,
+        "Envanter": 3,
+        "Barkod": 8001046663947,
+        "Sezon": "23AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "159484C",
+        "Renk Kodu": 101,
+        "Beden": 7,
+        "Envanter": 3,
+        "Barkod": 8001035440009,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "162053C",
+        "Renk Kodu": 247,
+        "Beden": 9.5,
+        "Envanter": 3,
+        "Barkod": 8001041067016,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": 10027367,
+        "Renk Kodu": 102,
+        "Beden": "M",
+        "Envanter": 3,
+        "Barkod": 8001062108279,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10013110,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 3,
+        "Barkod": 8001056974712,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 10001,
+        "Renk Kodu": "5BN",
+        "Beden": "39-40",
+        "Envanter": 3,
+        "Barkod": 8001061902625,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": 10001,
+        "Renk Kodu": "5BN",
+        "Beden": "37-38",
+        "Envanter": 3,
+        "Barkod": 8001061902601,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10008182,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 3,
+        "Barkod": 8001052007445,
+        "Sezon": "23SS"
+    },
+    {
+        "Marka": "CROCS",
+        "Ürün Grubu": "ROZET",
+        "Ürün Kodu": 10008789,
+        "Renk Kodu": 1,
+        "Beden": "NS",
+        "Envanter": 3,
+        "Barkod": 8001058889687,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "EALTI",
+        "Ürün Kodu": "XH2750",
+        "Renk Kodu": "70V",
+        "Beden": "TXL",
+        "Envanter": 2,
+        "Barkod": 8001055494129,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "WS327FT",
+        "Renk Kodu": 320,
+        "Beden": 38,
+        "Envanter": 2,
+        "Barkod": 8001055282597,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "WS327NKD",
+        "Renk Kodu": 106,
+        "Beden": 39,
+        "Envanter": 2,
+        "Barkod": 8001060933897,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "EALTI",
+        "Ürün Kodu": "XH2750",
+        "Renk Kodu": 31,
+        "Beden": "TXL",
+        "Envanter": 2,
+        "Barkod": 8001055493528,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "EALTI",
+        "Ürün Kodu": "XH2750",
+        "Renk Kodu": "70V",
+        "Beden": "TS",
+        "Envanter": 2,
+        "Barkod": 8001055494051,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "ESOFMANALT",
+        "Ürün Kodu": "XF2647",
+        "Renk Kodu": "XFJ",
+        "Beden": "T38",
+        "Envanter": 2,
+        "Barkod": 8001055412536,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "ESOFMANALT",
+        "Ürün Kodu": "XF2647",
+        "Renk Kodu": "XFJ",
+        "Beden": "T36",
+        "Envanter": 2,
+        "Barkod": 8001055412253,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "ESOFMANALT",
+        "Ürün Kodu": "XF2507",
+        "Renk Kodu": "XFJ",
+        "Beden": "T38",
+        "Envanter": 2,
+        "Barkod": 8001055376753,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "EALTI",
+        "Ürün Kodu": "XF9216",
+        "Renk Kodu": "70V",
+        "Beden": "T38",
+        "Envanter": 2,
+        "Barkod": 8001052600752,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "EALTI",
+        "Ürün Kodu": "XH9624",
+        "Renk Kodu": "SIX",
+        "Beden": "T6",
+        "Envanter": 2,
+        "Barkod": 8001047927703,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "EALTI",
+        "Ürün Kodu": "XH2750",
+        "Renk Kodu": 31,
+        "Beden": "TL",
+        "Envanter": 2,
+        "Barkod": 8001055493313,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "EALTI",
+        "Ürün Kodu": "XH9624",
+        "Renk Kodu": 31,
+        "Beden": "T3",
+        "Envanter": 2,
+        "Barkod": 8001046455047,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "EALTI",
+        "Ürün Kodu": "XF9216",
+        "Renk Kodu": "70V",
+        "Beden": "T36",
+        "Envanter": 2,
+        "Barkod": 8001052600745,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "ESOFMANALT",
+        "Ürün Kodu": "XF2501",
+        "Renk Kodu": "BUQ",
+        "Beden": "T40",
+        "Envanter": 2,
+        "Barkod": 8001055327076,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "USM3",
+        "Renk Kodu": "GRI",
+        "Beden": 3640,
+        "Envanter": 2,
+        "Barkod": 8001047613613,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED 4",
+        "Ürün Grubu": "ESOFMANALT",
+        "Ürün Kodu": "UPMS",
+        "Renk Kodu": "HKİ",
+        "Beden": "S",
+        "Envanter": 2,
+        "Barkod": 8001054869737,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN0891",
+        "Renk Kodu": "SSP",
+        "Beden": 2730,
+        "Envanter": 2,
+        "Barkod": 8001044366598,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED 4",
+        "Ürün Grubu": "ESOFMANALT",
+        "Ürün Kodu": "UPMS",
+        "Renk Kodu": "HKİ",
+        "Beden": "XL",
+        "Envanter": 2,
+        "Barkod": 8001054869744,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "VANS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "VN000CMT8Z41",
+        "Renk Kodu": "-",
+        "Beden": 90,
+        "Envanter": 2,
+        "Barkod": 8001058834816,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "VANS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "VN0009QR50K1",
+        "Renk Kodu": "-",
+        "Beden": 90,
+        "Envanter": 2,
+        "Barkod": 8001058834243,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "VANS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "VN0009QCDMV1",
+        "Renk Kodu": "-",
+        "Beden": 90,
+        "Envanter": 2,
+        "Barkod": 8001056136110,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "VANS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "VN000BCEBA21",
+        "Renk Kodu": "-",
+        "Beden": 45,
+        "Envanter": 2,
+        "Barkod": 8001052344137,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "VANS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "VD5INVY",
+        "Renk Kodu": "-",
+        "Beden": 90,
+        "Envanter": 2,
+        "Barkod": 8001024147063,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "VANS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "VD5INVY",
+        "Renk Kodu": "-",
+        "Beden": 115,
+        "Envanter": 2,
+        "Barkod": 8001024147056,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "VANS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "VD5INVY",
+        "Renk Kodu": "-",
+        "Beden": 105,
+        "Envanter": 2,
+        "Barkod": 8001024147032,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "VANS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "VD5INVY",
+        "Renk Kodu": "-",
+        "Beden": 100,
+        "Envanter": 2,
+        "Barkod": 8001024147049,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "USM6",
+        "Renk Kodu": "GAS",
+        "Beden": 4145,
+        "Envanter": 2,
+        "Barkod": 8001047613767,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UN0890",
+        "Renk Kodu": "BYZ",
+        "Beden": 2730,
+        "Envanter": 2,
+        "Barkod": 8001044364730,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "U42008S",
+        "Renk Kodu": "SYH",
+        "Beden": 3640,
+        "Envanter": 2,
+        "Barkod": 8001057319062,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UKSW",
+        "Renk Kodu": "ANT",
+        "Beden": 3640,
+        "Envanter": 2,
+        "Barkod": 8001047612937,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "USM5",
+        "Renk Kodu": "LCV",
+        "Beden": 4145,
+        "Envanter": 2,
+        "Barkod": 8001047613712,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "IC CAMASIR",
+        "Ürün Kodu": "UM0UM03411",
+        "Renk Kodu": "0SJ",
+        "Beden": "S",
+        "Envanter": 2,
+        "Barkod": 8001059289592,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "IC CAMASIR",
+        "Ürün Kodu": "UM0UM02760",
+        "Renk Kodu": "0XX",
+        "Beden": "SM",
+        "Envanter": 2,
+        "Barkod": 8001059288014,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED 4",
+        "Ürün Grubu": "SSHIRT",
+        "Ürün Kodu": "UHWS",
+        "Renk Kodu": "SYH",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001051889004,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "U4SJ2003",
+        "Renk Kodu": "LVH",
+        "Beden": 4146,
+        "Envanter": 2,
+        "Barkod": 8001059125593,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED 4",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "UHMS",
+        "Renk Kodu": "BRD",
+        "Beden": "L",
+        "Envanter": 2,
+        "Barkod": 8001057353202,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "UNITED 4",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "UHMS",
+        "Renk Kodu": "HKİ",
+        "Beden": "S",
+        "Envanter": 2,
+        "Barkod": 8001054869300,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "UNITED 4",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "UHMS",
+        "Renk Kodu": "HKİ",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001054869294,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UFM2",
+        "Renk Kodu": "GVG",
+        "Beden": 3640,
+        "Envanter": 2,
+        "Barkod": 8001059125319,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED 4",
+        "Ürün Grubu": "SSHIRT",
+        "Ürün Kodu": "UHWS",
+        "Renk Kodu": "PMB",
+        "Beden": "S",
+        "Envanter": 2,
+        "Barkod": 8001054870221,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UK0702",
+        "Renk Kodu": "LYG",
+        "Beden": 2730,
+        "Envanter": 2,
+        "Barkod": 8001044364037,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UK0702",
+        "Renk Kodu": "LYG",
+        "Beden": 2326,
+        "Envanter": 2,
+        "Barkod": 8001044363801,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UKSM",
+        "Renk Kodu": "ANT",
+        "Beden": 3640,
+        "Envanter": 2,
+        "Barkod": 8001059125845,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "UKSM",
+        "Renk Kodu": "BSG",
+        "Beden": 3640,
+        "Envanter": 2,
+        "Barkod": 8001059125852,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "UNITED 4",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "UHMS",
+        "Renk Kodu": "SYH",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001051888588,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "U327WRJ",
+        "Renk Kodu": 428,
+        "Beden": 42,
+        "Envanter": 2,
+        "Barkod": 8001058063728,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "U1906NB",
+        "Renk Kodu": 537,
+        "Beden": 38.5,
+        "Envanter": 2,
+        "Barkod": 8001060929500,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "UNITED",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "U4ES3006",
+        "Renk Kodu": "MGP",
+        "Beden": 4145,
+        "Envanter": 2,
+        "Barkod": 8001059125425,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "U2002RTG",
+        "Renk Kodu": 1,
+        "Beden": 42,
+        "Envanter": 2,
+        "Barkod": 8001060930261,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "U2002RTF",
+        "Renk Kodu": 105,
+        "Beden": 38.5,
+        "Envanter": 2,
+        "Barkod": 8001060929807,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "U2002RTF",
+        "Renk Kodu": 105,
+        "Beden": 37.5,
+        "Envanter": 2,
+        "Barkod": 8001060930384,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "TH0530",
+        "Renk Kodu": 132,
+        "Beden": "T3",
+        "Envanter": 2,
+        "Barkod": 8001058495680,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TIMBERLAND",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "TB1A447K1101",
+        "Renk Kodu": "-",
+        "Beden": 41,
+        "Envanter": 2,
+        "Barkod": 8001059680726,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "TH0530",
+        "Renk Kodu": 132,
+        "Beden": "T8",
+        "Envanter": 2,
+        "Barkod": 8001058361589,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "U327WRL",
+        "Renk Kodu": 201,
+        "Beden": 42,
+        "Envanter": 2,
+        "Barkod": 8001058063803,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2432",
+        "Renk Kodu": "32C",
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001047859950,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "ML610DG",
+        "Renk Kodu": 268,
+        "Beden": 44,
+        "Envanter": 2,
+        "Barkod": 8001058025009,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "SH2520",
+        "Renk Kodu": "BUQ",
+        "Beden": "T6",
+        "Envanter": 2,
+        "Barkod": 8001055463712,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "SH2897",
+        "Renk Kodu": "70V",
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001055332551,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "SH2897",
+        "Renk Kodu": "70V",
+        "Beden": "T6",
+        "Envanter": 2,
+        "Barkod": 8001055333176,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SSHIRT",
+        "Ürün Kodu": "SF5614",
+        "Renk Kodu": "02S",
+        "Beden": "T38",
+        "Envanter": 2,
+        "Barkod": 8001055468427,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "SF2565",
+        "Renk Kodu": "XFJ",
+        "Beden": "T38",
+        "Envanter": 2,
+        "Barkod": 8001055423969,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "SF2565",
+        "Renk Kodu": "XFJ",
+        "Beden": "T36",
+        "Envanter": 2,
+        "Barkod": 8001055423662,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "SF2507",
+        "Renk Kodu": "XFJ",
+        "Beden": "T38",
+        "Envanter": 2,
+        "Barkod": 8001055380545,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "SF2501",
+        "Renk Kodu": "BUQ",
+        "Beden": "T38",
+        "Envanter": 2,
+        "Barkod": 8001055461619,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SSHIRT",
+        "Ürün Kodu": "SH1281",
+        "Renk Kodu": 132,
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001052557063,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0747",
+        "Renk Kodu": 31,
+        "Beden": "T2",
+        "Envanter": 2,
+        "Barkod": 8001031173147,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SSHIRT",
+        "Ürün Kodu": "SH9623",
+        "Renk Kodu": "SIX",
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001047886932,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2416",
+        "Renk Kodu": "16S",
+        "Beden": "T2",
+        "Envanter": 2,
+        "Barkod": 8001047858540,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2411",
+        "Renk Kodu": "11L",
+        "Beden": "T6",
+        "Envanter": 2,
+        "Barkod": 8001047858212,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "SF2641",
+        "Renk Kodu": "XFJ",
+        "Beden": "T38",
+        "Envanter": 2,
+        "Barkod": 8001055428759,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": "CCA",
+        "Beden": "T2",
+        "Envanter": 2,
+        "Barkod": 8001028998517,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "MS327CGW",
+        "Renk Kodu": 137,
+        "Beden": 39.5,
+        "Envanter": 2,
+        "Barkod": 8001046807365,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "MS327CGW",
+        "Renk Kodu": 137,
+        "Beden": 38,
+        "Envanter": 2,
+        "Barkod": 8001046807341,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "MS327CGW",
+        "Renk Kodu": 137,
+        "Beden": 37.5,
+        "Envanter": 2,
+        "Barkod": 8001046807334,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2428",
+        "Renk Kodu": "28G",
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001047859653,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2431",
+        "Renk Kodu": "31L",
+        "Beden": "T6",
+        "Envanter": 2,
+        "Barkod": 8001055860559,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2431",
+        "Renk Kodu": "31L",
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001055860535,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2431",
+        "Renk Kodu": "31G",
+        "Beden": "T6",
+        "Envanter": 2,
+        "Barkod": 8001047859875,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "MS327CGW",
+        "Renk Kodu": 137,
+        "Beden": 38.5,
+        "Envanter": 2,
+        "Barkod": 8001046807358,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA4188",
+        "Renk Kodu": "SNP",
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001048874235,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "SF0281",
+        "Renk Kodu": 31,
+        "Beden": "T38",
+        "Envanter": 2,
+        "Barkod": 8001046646261,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0426",
+        "Renk Kodu": 166,
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001055860085,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2428",
+        "Renk Kodu": "28B",
+        "Beden": "T6",
+        "Envanter": 2,
+        "Barkod": 8001047859639,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": "BGS",
+        "Beden": "T6",
+        "Envanter": 2,
+        "Barkod": 8001028998500,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0716",
+        "Renk Kodu": "BGL",
+        "Beden": "T6",
+        "Envanter": 2,
+        "Barkod": 8001028998470,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A5G2F6OG1",
+        "Renk Kodu": "-",
+        "Beden": 100,
+        "Envanter": 2,
+        "Barkod": 8001060026162,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0747",
+        "Renk Kodu": "GR0",
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001031173130,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2432",
+        "Renk Kodu": "32L",
+        "Beden": "T2",
+        "Envanter": 2,
+        "Barkod": 8001047859974,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A7W4GKT01",
+        "Renk Kodu": "-",
+        "Beden": 85,
+        "Envanter": 2,
+        "Barkod": 8001053610910,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "ML565ABB",
+        "Renk Kodu": 1,
+        "Beden": 41.5,
+        "Envanter": 2,
+        "Barkod": 8001059064472,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0425",
+        "Renk Kodu": 31,
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001055859768,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0423",
+        "Renk Kodu": 31,
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001055859430,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA0412",
+        "Renk Kodu": 31,
+        "Beden": "T2",
+        "Envanter": 2,
+        "Barkod": 8001022259287,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "RA2431",
+        "Renk Kodu": "31G",
+        "Beden": "T2",
+        "Envanter": 2,
+        "Barkod": 8001047859851,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A5G2F6OG1",
+        "Renk Kodu": "-",
+        "Beden": 90,
+        "Envanter": 2,
+        "Barkod": 8001060026155,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A331HKY41",
+        "Renk Kodu": "-",
+        "Beden": 70,
+        "Envanter": 2,
+        "Barkod": 8001046860506,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9696C",
+        "Renk Kodu": 600,
+        "Beden": 8,
+        "Envanter": 2,
+        "Barkod": 8001025382180,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9696C",
+        "Renk Kodu": 600,
+        "Beden": 7.5,
+        "Envanter": 2,
+        "Barkod": 8001025382791,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TNF",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "NF0A331HKY41",
+        "Renk Kodu": "-",
+        "Beden": 50,
+        "Envanter": 2,
+        "Barkod": 8001046860483,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9696C",
+        "Renk Kodu": 600,
+        "Beden": 9,
+        "Envanter": 2,
+        "Barkod": 8001025381619,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9696C",
+        "Renk Kodu": 600,
+        "Beden": 6.5,
+        "Envanter": 2,
+        "Barkod": 8001025382777,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9696C",
+        "Renk Kodu": 600,
+        "Beden": 11,
+        "Envanter": 2,
+        "Barkod": 8001025381657,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "MR530ASR",
+        "Renk Kodu": 667,
+        "Beden": 45,
+        "Envanter": 2,
+        "Barkod": 8001058062530,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "MR530ASR",
+        "Renk Kodu": 667,
+        "Beden": 44,
+        "Envanter": 2,
+        "Barkod": 8001058062516,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "MR530ASR",
+        "Renk Kodu": 667,
+        "Beden": 44.5,
+        "Envanter": 2,
+        "Barkod": 8001058062523,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "MR530ASR",
+        "Renk Kodu": 667,
+        "Beden": 46.5,
+        "Envanter": 2,
+        "Barkod": 8001058062547,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "ML408DS",
+        "Renk Kodu": 40,
+        "Beden": 44,
+        "Envanter": 2,
+        "Barkod": 8001056002767,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9691C",
+        "Renk Kodu": 612,
+        "Beden": 7.5,
+        "Envanter": 2,
+        "Barkod": 8001025371542,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M7650C",
+        "Renk Kodu": 102,
+        "Beden": 9,
+        "Envanter": 2,
+        "Barkod": 8001025372884,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M9621C",
+        "Renk Kodu": 600,
+        "Beden": 7.5,
+        "Envanter": 2,
+        "Barkod": 8001025379234,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "JI7095",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 2,
+        "Barkod": 8001061985420,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "ML565AWG",
+        "Renk Kodu": 100,
+        "Beden": 44,
+        "Envanter": 2,
+        "Barkod": 8001059081059,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L47312700",
+        "Renk Kodu": 22782,
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001056379111,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "ML565AWG",
+        "Renk Kodu": 100,
+        "Beden": 42.5,
+        "Envanter": 2,
+        "Barkod": 8001059081035,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M7650C",
+        "Renk Kodu": 102,
+        "Beden": 10,
+        "Envanter": 2,
+        "Barkod": 8001025372907,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M5039C",
+        "Renk Kodu": 6,
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001025388557,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M5039C",
+        "Renk Kodu": 6,
+        "Beden": 6.5,
+        "Envanter": 2,
+        "Barkod": 8001025389011,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L41289600",
+        "Renk Kodu": 25364,
+        "Beden": 3.5,
+        "Envanter": 2,
+        "Barkod": 8001044127588,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L41383400",
+        "Renk Kodu": 25361,
+        "Beden": 7.5,
+        "Envanter": 2,
+        "Barkod": 8001046820500,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "CONVERSE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M7652C",
+        "Renk Kodu": 102,
+        "Beden": 9.5,
+        "Envanter": 2,
+        "Barkod": 8001025382531,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L41383400",
+        "Renk Kodu": 25361,
+        "Beden": 9.5,
+        "Envanter": 2,
+        "Barkod": 8001046820531,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L41295600",
+        "Renk Kodu": 25383,
+        "Beden": 3.5,
+        "Envanter": 2,
+        "Barkod": 8001044127786,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L41295600",
+        "Renk Kodu": 25383,
+        "Beden": 6.5,
+        "Envanter": 2,
+        "Barkod": 8001044127823,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L41625000",
+        "Renk Kodu": 31007,
+        "Beden": 3.5,
+        "Envanter": 2,
+        "Barkod": 8001053489332,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L47453200",
+        "Renk Kodu": 7780,
+        "Beden": 7.5,
+        "Envanter": 2,
+        "Barkod": 8001059561049,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "NEW BALANCE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "M2002RDN",
+        "Renk Kodu": 341,
+        "Beden": 44,
+        "Envanter": 2,
+        "Barkod": 8001052689849,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L41625000",
+        "Renk Kodu": 31097,
+        "Beden": 6.5,
+        "Envanter": 2,
+        "Barkod": 8001053489592,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L41295600",
+        "Renk Kodu": 25383,
+        "Beden": 6,
+        "Envanter": 2,
+        "Barkod": 8001044127816,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L41295600",
+        "Renk Kodu": 25383,
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001044127809,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FW0FW08252",
+        "Renk Kodu": "GPK",
+        "Beden": 38,
+        "Envanter": 2,
+        "Barkod": 8001059259168,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L47453200",
+        "Renk Kodu": 7780,
+        "Beden": 10.5,
+        "Envanter": 2,
+        "Barkod": 8001059561032,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "SORT",
+        "Ürün Kodu": "GH9860",
+        "Renk Kodu": 31,
+        "Beden": "T4",
+        "Envanter": 2,
+        "Barkod": 8001058557081,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L47311000",
+        "Renk Kodu": 3190,
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001053576599,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L41625000",
+        "Renk Kodu": 31007,
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001053489400,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FW0FW08272",
+        "Renk Kodu": "YBS",
+        "Beden": 39,
+        "Envanter": 2,
+        "Barkod": 8001059196524,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FW0FW08252",
+        "Renk Kodu": "GPK",
+        "Beden": 37,
+        "Envanter": 2,
+        "Barkod": 8001059259120,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "KI8459",
+        "Renk Kodu": "-",
+        "Beden": 9,
+        "Envanter": 2,
+        "Barkod": 8001064231401,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "KI8459",
+        "Renk Kodu": "-",
+        "Beden": 7.5,
+        "Envanter": 2,
+        "Barkod": 8001064231371,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JS1194",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001060250000,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L41625000",
+        "Renk Kodu": 31097,
+        "Beden": 6,
+        "Envanter": 2,
+        "Barkod": 8001053489530,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FW0FW08430",
+        "Renk Kodu": "BDS",
+        "Beden": 38,
+        "Envanter": 2,
+        "Barkod": 8001059196692,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NIKE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FZ5630",
+        "Renk Kodu": 1,
+        "Beden": 7,
+        "Envanter": 2,
+        "Barkod": 8001055925036,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FW0FW08334",
+        "Renk Kodu": "BDS",
+        "Beden": 39,
+        "Envanter": 2,
+        "Barkod": 8001059196579,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FW0FW08334",
+        "Renk Kodu": "BDS",
+        "Beden": 37,
+        "Envanter": 2,
+        "Barkod": 8001059196555,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FW0FW08252",
+        "Renk Kodu": "BDS",
+        "Beden": 38,
+        "Envanter": 2,
+        "Barkod": 8001059258918,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JS1194",
+        "Renk Kodu": "-",
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001060249998,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "SALOMON",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "L47311000",
+        "Renk Kodu": 3190,
+        "Beden": 3.5,
+        "Envanter": 2,
+        "Barkod": 8001053576582,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FW0FW08252",
+        "Renk Kodu": "BDS",
+        "Beden": 39,
+        "Envanter": 2,
+        "Barkod": 8001059258963,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "JI5871",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001061984720,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JI2756",
+        "Renk Kodu": "-",
+        "Beden": 3.5,
+        "Envanter": 2,
+        "Barkod": 8001061864985,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "JN4560",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001061991629,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JI3988",
+        "Renk Kodu": "-",
+        "Beden": 2,
+        "Envanter": 2,
+        "Barkod": 8001061868532,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JI2061",
+        "Renk Kodu": "-",
+        "Beden": 9,
+        "Envanter": 2,
+        "Barkod": 8001058124764,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JI2061",
+        "Renk Kodu": "-",
+        "Beden": 7.5,
+        "Envanter": 2,
+        "Barkod": 8001058124702,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH8796",
+        "Renk Kodu": "-",
+        "Beden": 8,
+        "Envanter": 2,
+        "Barkod": 8001061859547,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH7440",
+        "Renk Kodu": "-",
+        "Beden": "7K",
+        "Envanter": 2,
+        "Barkod": 8001061858175,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH5407",
+        "Renk Kodu": "-",
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001061855235,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH7270",
+        "Renk Kodu": "-",
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001061857697,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH5412",
+        "Renk Kodu": "-",
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001061855495,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH5407",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001061854917,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH5177",
+        "Renk Kodu": "-",
+        "Beden": 1,
+        "Envanter": 2,
+        "Barkod": 8001061854214,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "JD0711",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001061946933,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH5408",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001061855358,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH5408",
+        "Renk Kodu": "-",
+        "Beden": 8,
+        "Envanter": 2,
+        "Barkod": 8001061855426,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH5408",
+        "Renk Kodu": "-",
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001061855334,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JS1193",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001060139008,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JR0912",
+        "Renk Kodu": "-",
+        "Beden": 9,
+        "Envanter": 2,
+        "Barkod": 8001064109533,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "JD0676",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 2,
+        "Barkod": 8001061942270,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "JD0711",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 2,
+        "Barkod": 8001061946896,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JS1193",
+        "Renk Kodu": "-",
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001060138995,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JR0912",
+        "Renk Kodu": "-",
+        "Beden": 8,
+        "Envanter": 2,
+        "Barkod": 8001064109519,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "JC7760",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001061928137,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "TSHIRT",
+        "Ürün Kodu": "JC7759",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001061927932,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JR0912",
+        "Renk Kodu": "-",
+        "Beden": 7.5,
+        "Envanter": 2,
+        "Barkod": 8001064109502,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JI1281",
+        "Renk Kodu": "-",
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001055324488,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "JC6066",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 2,
+        "Barkod": 8001061925426,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JI1281",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001055324495,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "JH5404",
+        "Renk Kodu": "-",
+        "Beden": 7.5,
+        "Envanter": 2,
+        "Barkod": 8001061855105,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "IZ2359",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 2,
+        "Barkod": 8001058859314,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "T-SHIRT",
+        "Ürün Kodu": "IY1137",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001058856702,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "IZ2359",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001058859321,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "IX6746",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001058856115,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "SWEATSHIRT",
+        "Ürün Kodu": "IX6746",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 2,
+        "Barkod": 8001058856108,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "PANTOLON",
+        "Ürün Kodu": "IX6765",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 2,
+        "Barkod": 8001057953853,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IH7579",
+        "Renk Kodu": "-",
+        "Beden": "7K",
+        "Envanter": 2,
+        "Barkod": 8001061854054,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IJ5613",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001058892885,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IH3507",
+        "Renk Kodu": "-",
+        "Beden": 2.5,
+        "Envanter": 2,
+        "Barkod": 8001061852661,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IH3507",
+        "Renk Kodu": "-",
+        "Beden": 2,
+        "Envanter": 2,
+        "Barkod": 8001061852654,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IL5022",
+        "Renk Kodu": "-",
+        "Beden": "S",
+        "Envanter": 2,
+        "Barkod": 8001058892953,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IH4881",
+        "Renk Kodu": "-",
+        "Beden": 9,
+        "Envanter": 2,
+        "Barkod": 8001057946718,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IL5022",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 2,
+        "Barkod": 8001058892939,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IH4881",
+        "Renk Kodu": "-",
+        "Beden": 8,
+        "Envanter": 2,
+        "Barkod": 8001057946695,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IH2632",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001058118268,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IG4279",
+        "Renk Kodu": "-",
+        "Beden": 6,
+        "Envanter": 2,
+        "Barkod": 8001061851107,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IG4215",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001058113768,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IH1140",
+        "Renk Kodu": "-",
+        "Beden": "7K",
+        "Envanter": 2,
+        "Barkod": 8001061852029,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IG2091",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001058113072,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IG6227",
+        "Renk Kodu": "-",
+        "Beden": 8,
+        "Envanter": 2,
+        "Barkod": 8001055314137,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IG2160",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001058113324,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IF3813",
+        "Renk Kodu": "-",
+        "Beden": 10.5,
+        "Envanter": 2,
+        "Barkod": 8001055303681,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IF4532",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001057939963,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IE7002",
+        "Renk Kodu": "-",
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001058108498,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IF1273",
+        "Renk Kodu": "-",
+        "Beden": "11K",
+        "Envanter": 2,
+        "Barkod": 8001055301908,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IE9047",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001058108849,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "ID8067",
+        "Renk Kodu": "-",
+        "Beden": 4.5,
+        "Envanter": 2,
+        "Barkod": 8001052712127,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "ID4049",
+        "Renk Kodu": "-",
+        "Beden": "11K",
+        "Envanter": 2,
+        "Barkod": 8001058107255,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IE7002",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001058108504,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "ID4051",
+        "Renk Kodu": "-",
+        "Beden": "7K",
+        "Envanter": 2,
+        "Barkod": 8001058107330,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "ID1169",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001058106630,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IC1302",
+        "Renk Kodu": "-",
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001061911740,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IC1302",
+        "Renk Kodu": "-",
+        "Beden": "S",
+        "Envanter": 2,
+        "Barkod": 8001061911764,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IC1302",
+        "Renk Kodu": "-",
+        "Beden": "L",
+        "Envanter": 2,
+        "Barkod": 8001061911719,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "CORAP",
+        "Ürün Kodu": "IC1323",
+        "Renk Kodu": "-",
+        "Beden": "S",
+        "Envanter": 2,
+        "Barkod": 8001055225860,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "IE0439",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001055293777,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "ID4048",
+        "Renk Kodu": "-",
+        "Beden": "7K",
+        "Envanter": 2,
+        "Barkod": 8001058107194,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "ID0397",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001055288063,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "HQ6912",
+        "Renk Kodu": "-",
+        "Beden": 5.5,
+        "Envanter": 2,
+        "Barkod": 8001052707536,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "GX3231",
+        "Renk Kodu": "-",
+        "Beden": 1.5,
+        "Envanter": 2,
+        "Barkod": 8001061873888,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "GW1981",
+        "Renk Kodu": "-",
+        "Beden": 2,
+        "Envanter": 2,
+        "Barkod": 8001056040547,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "GW6456",
+        "Renk Kodu": "-",
+        "Beden": "7K",
+        "Envanter": 2,
+        "Barkod": 8001052237651,
+        "Sezon": "25AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FX7534",
+        "Renk Kodu": "-",
+        "Beden": "12,5K",
+        "Envanter": 2,
+        "Barkod": 8001041361046,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FX7534",
+        "Renk Kodu": "-",
+        "Beden": "11K",
+        "Envanter": 2,
+        "Barkod": 8001041361039,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FX7534",
+        "Renk Kodu": "-",
+        "Beden": "10,5K",
+        "Envanter": 2,
+        "Barkod": 8001048102406,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FX5502",
+        "Renk Kodu": "-",
+        "Beden": 5,
+        "Envanter": 2,
+        "Barkod": 8001045058492,
+        "Sezon": "24AW"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "FY7981",
+        "Renk Kodu": "-",
+        "Beden": "10,5K",
+        "Envanter": 2,
+        "Barkod": 8001048097023,
+        "Sezon": "24SS"
+    },
+    {
+        "Marka": "NIKE",
+        "Ürün Grubu": "EALTI",
+        "Ürün Kodu": "FN1905",
+        "Renk Kodu": 208,
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001055912210,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EN0EN02606",
+        "Renk Kodu": "AB9",
+        "Beden": 39,
+        "Envanter": 2,
+        "Barkod": 8001059195848,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EN0EN02680",
+        "Renk Kodu": "PJ5",
+        "Beden": 39,
+        "Envanter": 2,
+        "Barkod": 8001059255238,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NIKE",
+        "Ürün Grubu": "EALTI",
+        "Ürün Kodu": "FB7911",
+        "Renk Kodu": 247,
+        "Beden": "M",
+        "Envanter": 2,
+        "Barkod": 8001052796097,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EM0EM01462",
+        "Renk Kodu": "YBL",
+        "Beden": 44,
+        "Envanter": 2,
+        "Barkod": 8001059251766,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EM0EM01509",
+        "Renk Kodu": "M00",
+        "Beden": 44,
+        "Envanter": 2,
+        "Barkod": 8001059195473,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EM0EM01509",
+        "Renk Kodu": "M00",
+        "Beden": 43,
+        "Envanter": 2,
+        "Barkod": 8001059195466,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EN0EN02606",
+        "Renk Kodu": "AB9",
+        "Beden": 38,
+        "Envanter": 2,
+        "Barkod": 8001059195831,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NIKE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "DZ3306",
+        "Renk Kodu": 200,
+        "Beden": 8.5,
+        "Envanter": 2,
+        "Barkod": 8001053992955,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EM0EM01509",
+        "Renk Kodu": "BDS",
+        "Beden": 44,
+        "Envanter": 2,
+        "Barkod": 8001059252435,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "EASTPAK",
+        "Ürün Grubu": "CANTA",
+        "Ürün Kodu": "EK074",
+        "Renk Kodu": 8,
+        "Beden": "NS",
+        "Envanter": 2,
+        "Barkod": 8001034705512,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "ADIDAS",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EE6462",
+        "Renk Kodu": "-",
+        "Beden": 9,
+        "Envanter": 2,
+        "Barkod": 8001046210998,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "TOMMY HILFIGER",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "EM0EM01513",
+        "Renk Kodu": "YBL",
+        "Beden": 42,
+        "Envanter": 2,
+        "Barkod": 8001061009454,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "NIKE",
+        "Ürün Grubu": "AYAKKABI",
+        "Ürün Kodu": "DR9761",
+        "Renk Kodu": 101,
+        "Beden": 7,
+        "Envanter": 2,
+        "Barkod": 8001052790255,
+        "Sezon": "25SS"
+    },
+    {
+        "Marka": "LACOSTE",
+        "Ürün Grubu": "POLO",
+        "Ürün Kodu": "DH1417",
+        "Renk Kodu": "4PC",
+        "Beden": "T6",
+        "Envanter": 2,
+        "Barkod": 8001055413069,
+        "Sezon": "25AW"
+    }
+]

@@ -1,0 +1,36 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu.",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "search": "Ara..."
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "inventory": "Envanter Yönetimi",
+    "inventory_sub": {
+      "stock": "Stok Durumu",
+      "counting": "Stok Sayımı"
+    },
+    "sales": "Satış ve Performans",
+    "warehouse": "Depo Yönetimi",
+    "warehouse_sub": {
+      "3d": "3D Depo Görünümü",
+      "operations": "Operasyonlar"
+    },
+    "personnel": "Personel Yönetimi",
+    "personnel_sub": {
+      "kpi": "Personel KPI",
+      "analysis": "Personel Analizi"
+    },
+    "settings": "Ayarlar"
+  },
+  "dashboard": {
+    "title": "Ana Panel",
+    "welcome": "Hoş Geldiniz"
+  }
+}

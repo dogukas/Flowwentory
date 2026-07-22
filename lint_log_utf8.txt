@@ -1,0 +1,438 @@
+﻿bun : $ next lint
+At line:1 char:1
++ bun run lint > 
+lint_log.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: ($ next lin   
+ t:String) [], Rem    
+oteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+
+./src/app/dashboard/pa
+ge.tsx
+3:52  Error: 
+'CardDescription' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+8:10  Error: 
+'ResponsiveBar' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+11:46  Error: 
+'AlertCircle' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+15:10  Error: 'Table' 
+is defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+15:17  Error: 
+'TableBody' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+15:28  Error: 
+'TableCell' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+15:39  Error: 
+'TableHead' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+15:50  Error: 
+'TableHeader' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+15:63  Error: 
+'TableRow' is defined 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+17:10  Error: 
+'Button' is defined 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+18:10  Error: 
+'Loader2' is defined 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+18:19  Error: 
+'Database' is defined 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+18:29  Error: 'Check' 
+is defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+36:31  Error: 'index' 
+is defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+85:32  Error: 'index' 
+is defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+134:34  Error: 
+'index' is defined 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+198:53  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+212:51  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+234:10  Error: 
+'isSyncing' is 
+assigned a value but 
+never used.  @typescri
+pt-eslint/no-unused-va
+rs
+234:21  Error: 
+'setIsSyncing' is 
+assigned a value but 
+never used.  @typescri
+pt-eslint/no-unused-va
+rs
+235:10  Error: 
+'syncStatus' is 
+assigned a value but 
+never used.  @typescri
+pt-eslint/no-unused-va
+rs
+235:22  Error: 
+'setSyncStatus' is 
+assigned a value but 
+never used.  @typescri
+pt-eslint/no-unused-va
+rs
+304:5  Error: 
+'totalProducts' is 
+assigned a value but 
+never used.  @typescri
+pt-eslint/no-unused-va
+rs
+317:5  Error: 'allCate
+goriesPercentage' is 
+assigned a value but 
+never used.  @typescri
+pt-eslint/no-unused-va
+rs
+527:5  Error: 
+'brandSalesPieData' 
+is assigned a value 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+545:16  Error: 
+'error' is defined 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+580:16  Error: 
+'error' is defined 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+608:16  Error: 
+'error' is defined 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+698:91  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  r
+eact/no-unescaped-enti
+ties
+714:93  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  r
+eact/no-unescaped-enti
+ties
+730:91  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  r
+eact/no-unescaped-enti
+ties
+1498:51  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+1500:82  Error: '_' 
+is defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+1500:112  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+1522:54  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+1522:76  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+1523:61  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+1596:51  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+1598:82  Error: '_' 
+is defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+1598:112  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+1620:54  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+1620:76  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+1621:61  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+
+./src/app/operations/p
+lanning/page.tsx
+8:16  Error: 
+'CardHeader' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+8:28  Error: 
+'CardTitle' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+13:19  Error: 
+'RefreshCw' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+92:56  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+95:55  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+123:70  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+
+./src/app/personnel-an
+alysis/top-products.ts
+x
+46:6  Warning: React 
+Hook useEffect has a 
+missing dependency: 
+'processExcelData'. 
+Either include it or 
+remove the dependency 
+array.  react-hooks/ex
+haustive-deps
+
+./src/app/sales/page.t
+sx
+119:28  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+
+./src/app/stock/page.t
+sx
+120:28  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+
+./src/app/warehouse-3d
+/page.tsx
+3:28  Error: 
+'useThree' is defined 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+33:11  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+34:21  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+107:12  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+109:25  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+235:26  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+245:39  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+337:11  Error: 
+'loading' is assigned 
+a value but never 
+used.  @typescript-esl
+int/no-unused-vars
+340:54  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+349:8  Warning: React 
+Hook useEffect has a 
+missing dependency: 
+'fetchStocks'. Either 
+include it or remove 
+the dependency array. 
+ react-hooks/exhaustiv
+e-deps
+369:13  Error: 
+'remaining' is never 
+reassigned. Use 
+'const' instead.  
+prefer-const
+
+./src/components/canva
+s/WaveBackground.tsx
+8:27  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esl
+int/no-explicit-any
+
+./src/components/sideb
+ar/Sidebar.tsx
+14:3  Error: 
+'Settings' is defined 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+15:3  Error: 'LogOut' 
+is defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+16:3  Error: 'Moon' 
+is defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+17:3  Error: 'Sun' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+24:10  Error: 
+'Avatar' is defined 
+but never used.  @type
+script-eslint/no-unuse
+d-vars
+24:18  Error: 
+'AvatarFallback' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+24:34  Error: 
+'AvatarImage' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+32:22  Error: 
+'setIsDarkMode' is 
+assigned a value but 
+never used.  @typescri
+pt-eslint/no-unused-va
+rs
+
+./src/components/ui/in
+put.tsx
+5:18  Error: An 
+interface declaring 
+no members is 
+equivalent to its 
+supertype.  @typescrip
+t-eslint/no-empty-obje
+ct-type
+
+./src/store/useSalesSt
+ore.ts
+29:11  Error: An 
+interface declaring 
+no members is 
+equivalent to its 
+supertype.  @typescrip
+t-eslint/no-empty-obje
+ct-type
+
+info  - Need to 
+disable some ESLint 
+rules? Learn more 
+here: https://nextjs.o
+rg/docs/app/api-refere
+nce/config/eslint#disa
+bling-rules
+error: script "lint" 
+exited with code 1

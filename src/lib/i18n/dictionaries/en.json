@@ -1,0 +1,36 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search..."
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "inventory": "Inventory Management",
+    "inventory_sub": {
+      "stock": "Stock Status",
+      "counting": "Stock Counting"
+    },
+    "sales": "Sales & Performance",
+    "warehouse": "Warehouse Management",
+    "warehouse_sub": {
+      "3d": "3D Warehouse View",
+      "operations": "Operations"
+    },
+    "personnel": "Personnel Management",
+    "personnel_sub": {
+      "kpi": "Personnel KPI",
+      "analysis": "Personnel Analysis"
+    },
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome"
+  }
+}

@@ -1,4 +1,5 @@
 # 🚀 Flowwentory - Modern Kurumsal Kaynak Planlama Sistemi
+<!-- Last Updated: 2026-07-26 - v1.1.0 -->
 
 <div align="center">
 

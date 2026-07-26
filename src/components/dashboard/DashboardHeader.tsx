@@ -1,8 +1,11 @@
+import React, { useState } from "react";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Check, AlertCircle, FileDown } from "lucide-react";
+import { Check, AlertCircle, FileDown, Users } from "lucide-react";
 import { useTranslation } from "@/lib/i18n/DictionaryProvider";
+import { useTenantStore } from "@/store/useTenantStore";
+import { TeamManagementDialog } from "@/components/dashboard/TeamManagementDialog";
 
 interface DashboardHeaderProps {
   totalCategorizedStock: number;
@@ -20,6 +23,9 @@ export function DashboardHeader({
   exportBrandMetrics
 }: DashboardHeaderProps) {
   const { t } = useTranslation();
+  const { userRole } = useTenantStore();
+  const [teamDialogOpen, setTeamDialogOpen] = useState(false);
+  const isAdmin = userRole === "admin";
 
   return (
     <div className="relative z-0 overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-600 via-violet-600 to-blue-600 p-6 md:p-8 shadow-[0_8px_30px_rgba(99,102,241,0.25)]">
@@ -58,7 +64,18 @@ export function DashboardHeader({
           </div>
           <p className="text-indigo-100/80 text-sm md:text-base ml-[52px]">Modern Envanter & Stok Yönetim Platformu</p>
         </div>
-        <div className="flex items-center gap-3 ml-[52px] md:ml-0">
+        <div className="flex items-center gap-3 ml-[52px] md:ml-0 flex-wrap">
+          {isAdmin && (
+            <Button
+              variant="outline"
+              size="sm"
+              className="h-8 gap-1.5 bg-white/10 border-white/20 text-white hover:bg-white/20 backdrop-blur-sm"
+              onClick={() => setTeamDialogOpen(true)}
+            >
+              <Users className="h-3.5 w-3.5 text-indigo-300" />
+              <span className="hidden sm:inline text-xs">Ekip Yönetimi</span>
+            </Button>
+          )}
           <Button variant="outline" size="sm" className="h-8 gap-1.5 bg-white/10 border-white/20 text-white hover:bg-white/20 backdrop-blur-sm" onClick={exportBrandMetrics}>
             <FileDown className="h-3.5 w-3.5" />
             <span className="hidden sm:inline text-xs">Excel</span>
@@ -77,6 +94,14 @@ export function DashboardHeader({
           </div>
         </div>
       </div>
+
+      {isAdmin && (
+        <TeamManagementDialog
+          open={teamDialogOpen}
+          onOpenChange={setTeamDialogOpen}
+        />
+      )}
     </div>
   );
 }
+

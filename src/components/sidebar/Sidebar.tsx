@@ -103,6 +103,12 @@ export function Sidebar({ className }: SidebarProps) {
       description: "Kırılım analizleri",
     },
     {
+      title: "3D Dijital Depo",
+      icon: <Package size={18} />,
+      href: "/warehouse-3d",
+      description: "3B depo simülasyonu",
+    },
+    {
       title: "Operasyonlar",
       isHeader: true,
     },
@@ -167,7 +173,7 @@ export function Sidebar({ className }: SidebarProps) {
             exit={{ x: -320, opacity: 0, scale: 0.95 }}
             transition={{ type: "spring", damping: 28, stiffness: 260 }}
             className={cn(
-              "fixed left-3 top-3 bottom-3 w-[280px] bg-white dark:bg-slate-950 rounded-2xl shadow-2xl z-50 flex flex-col border border-slate-200/80 dark:border-slate-800 overflow-hidden",
+              "fixed left-3 top-3 bottom-3 w-[calc(100vw-24px)] max-w-[285px] bg-white dark:bg-slate-950 rounded-2xl shadow-2xl z-50 flex flex-col border border-slate-200/80 dark:border-slate-800 overflow-hidden",
               className
             )}
           >
@@ -302,6 +308,52 @@ export function Sidebar({ className }: SidebarProps) {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Mobile Bottom Navigation Bar */}
+      <nav
+        aria-label="Mobil Alt Navigasyon"
+        className="md:hidden fixed bottom-0 inset-x-0 z-40 bg-white/95 dark:bg-slate-950/95 backdrop-blur-xl border-t border-slate-200/80 dark:border-slate-800 px-1.5 py-1.5 shadow-[0_-4px_20px_rgba(15,23,42,0.08)]"
+      >
+        <div className="grid grid-cols-6 gap-0.5 max-w-md mx-auto">
+          {[
+            { title: "Panel", href: "/dashboard", icon: <LayoutDashboard size={17} /> },
+            { title: "RPT Plan", href: "/operations/planning", icon: <Truck size={17} /> },
+            { title: "Sayım", href: "/stock-counting", icon: <ClipboardCheck size={17} /> },
+            { title: "Personel", href: "/personnel-analysis", icon: <Users size={17} /> },
+            { title: "3D Depo", href: "/warehouse-3d", icon: <Package size={17} /> },
+          ].map((tab) => {
+            const active = pathname === tab.href;
+            return (
+              <Link
+                key={tab.href}
+                href={tab.href}
+                className={cn(
+                  "flex flex-col items-center justify-center py-1 px-1 rounded-xl transition-all",
+                  active
+                    ? "text-indigo-600 dark:text-indigo-400 bg-indigo-50/80 dark:bg-indigo-950/50 font-bold"
+                    : "text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white font-medium"
+                )}
+              >
+                {tab.icon}
+                <span className="text-[10px] mt-0.5 truncate max-w-full leading-tight">{tab.title}</span>
+              </Link>
+            );
+          })}
+          <button
+            type="button"
+            onClick={() => setIsOpen(true)}
+            className={cn(
+              "flex flex-col items-center justify-center py-1 px-1 rounded-xl transition-all",
+              isOpen
+                ? "text-indigo-600 dark:text-indigo-400 bg-indigo-50/80 dark:bg-indigo-950/50 font-bold"
+                : "text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white font-medium"
+            )}
+          >
+            <Menu size={17} />
+            <span className="text-[10px] mt-0.5 truncate max-w-full leading-tight">Menü</span>
+          </button>
+        </div>
+      </nav>
     </>
   )
 }

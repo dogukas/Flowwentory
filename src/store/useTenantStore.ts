@@ -16,7 +16,10 @@ interface TenantState {
 export const useTenantStore = create<TenantState>()(
   persist(
     (set) => ({
-      company: null, userId: null, userRole: null, isLoading: false,
+      company: { id: 'demo-company', name: 'Flowwentory Demo A.Ş.', slug: 'flowwentory-demo' },
+      userId: 'demo-admin',
+      userRole: 'admin',
+      isLoading: false,
 
       fetchTenant: async () => {
         set({ isLoading: true });

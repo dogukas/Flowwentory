@@ -19,9 +19,9 @@ export default function ClientLayout({
     return (
         <>
             <LoadingOverlay isLoading={isLoading} />
-            <div className="flex">
+            <div className="flex min-h-screen w-full overflow-x-hidden">
                 {showSidebar && <Sidebar />}
-                <main className="flex-1">{children}</main>
+                <main className="flex-1 min-w-0 w-full overflow-x-hidden pb-20 md:pb-0">{children}</main>
             </div>
         </>
     );

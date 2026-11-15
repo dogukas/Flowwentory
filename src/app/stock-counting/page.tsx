@@ -7,8 +7,9 @@
 // ==========================================
 // REACT & HOOKS
 // ==========================================
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 // ==========================================
 // UI COMPONENTS
@@ -82,8 +83,9 @@ import { motion } from "framer-motion";
 // INTERNAL
 // ==========================================
 import { useCountingStore } from "@/store/useCountingStore";
+import { useStockStore } from "@/store/useStockStore";
 import { NewCountingDialog } from "@/components/counting/NewCountingDialog";
-import type { CountingEvent, CountingStatus } from "@/types/counting";
+import type { CountingEvent, CountingStatus, CountingDetail } from "@/types/counting";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 import { useDebouncedValue } from "@/hooks/useDebouncedValue";
 
@@ -133,16 +135,118 @@ const itemVariants = {
 // ==========================================
 
 export default function StockCountingPage() {
+    const router = useRouter();
     const {
         countingEvents,
+        countingDetails,
         searchQuery,
         statusFilter,
         setSearchQuery,
         setStatusFilter,
         getFilteredEvents,
+        addCountingEvent,
+        setCountingDetails,
         updateCountingEvent,
         deleteCountingEvent,
     } = useCountingStore();
+
+    const stockData = useStockStore(s => s.stockData) || [];
+    const setStockData = useStockStore(s => s.setStockData);
+
+    useEffect(() => {
+        if (stockData.length > 0) return;
+        import('@/lib/supabase').then(async ({ fetchAllRows }) => {
+            const stocks = await fetchAllRows('stocks');
+            if (stocks && stocks.length > 0) {
+                setStockData(
+                    stocks.map((item: any) => ({
+                        Marka: item.marka,
+                        "Ürün Grubu": item.urun_grubu,
+                        "Ürün Kodu": item.urun_kodu,
+                        "Renk Kodu": item.renk_kodu,
+                        Beden: item.beden,
+                        Envanter: item.envanter,
+                        Barkod: item.barkod,
+                        Sezon: item.sezon,
+                    }))
+                );
+            }
+        });
+    }, [stockData.length, setStockData]);
+
+    // Global Shrinkage & Hayalet Stok (Phantom Inventory) Mikro Sayım Önerileri
+    const cycleCountProposals = useMemo(() => {
+        const grouped: Record<string, { brand: string; group: string; items: any[]; totalAtRiskVal: number }> = {};
+        stockData.forEach(item => {
+            const qty = parseInt(item.Envanter) || 0;
+            // Sistemde 1-2 adet görünen ürünler "Hayalet Stok" (Phantom Stock / Shrinkage) açısından en yüksek riskli ürünlerdir
+            if (qty >= 1 && qty <= 2) {
+                const key = `${item.Marka}__${item["Ürün Grubu"]}`;
+                if (!grouped[key]) {
+                    grouped[key] = {
+                        brand: item.Marka || "Genel",
+                        group: item["Ürün Grubu"] || "Genel",
+                        items: [],
+                        totalAtRiskVal: 0,
+                    };
+                }
+                if (grouped[key].items.length < 15) {
+                    grouped[key].items.push(item);
+                    grouped[key].totalAtRiskVal += qty * 650;
+                }
+            }
+        });
+        return Object.values(grouped)
+            .filter(g => g.items.length >= 3)
+            .sort((a, b) => b.totalAtRiskVal - a.totalAtRiskVal)
+            .slice(0, 4);
+    }, [stockData]);
+
+    const handleStartQuickCycleCount = (brand: string, group: string, riskyItems: any[]) => {
+        const eventId = crypto.randomUUID();
+        const code = `CYC-${brand.slice(0, 3).toUpperCase()}-${Math.floor(100 + Math.random() * 900)}`;
+        const newEvent: CountingEvent = {
+            id: eventId,
+            event_code: code,
+            event_type: 'CYCLE',
+            status: 'IN_PROGRESS',
+            scheduled_date: new Date(),
+            started_at: new Date(),
+            created_by: 'AI Shrinkage Radar',
+            filter_brands: [brand],
+            filter_product_groups: [group],
+            total_items_planned: riskyItems.length,
+            total_items_counted: 0,
+            discrepancy_count: 0,
+            notes: `${brand} - ${group} Hayalet Stok & Kayıp/Kaçak (Shrinkage) 10 Dakikalık Hızlı Mikro Sayım`,
+            created_at: new Date(),
+            updated_at: new Date(),
+        };
+
+        const newDetails: CountingDetail[] = riskyItems.map((it, idx) => ({
+            id: `${eventId}-det-${idx}`,
+            counting_event_id: eventId,
+            barkod: String(it.Barkod || `${it["Ürün Kodu"]}-${it.Beden}`),
+            marka: it.Marka || brand,
+            urun_grubu: it["Ürün Grubu"] || group,
+            urun_kodu: it["Ürün Kodu"] || "-",
+            renk_kodu: it["Renk Kodu"] || "STD",
+            beden: it.Beden || "M",
+            sezon: it.Sezon || "25SS",
+            system_quantity: parseInt(it.Envanter) || 1,
+            counted_quantity: null,
+            discrepancy: 0,
+            discrepancy_percentage: 0,
+            is_counted: false,
+            adjustment_status: 'PENDING',
+            created_at: new Date(),
+            updated_at: new Date(),
+        }));
+
+        addCountingEvent(newEvent);
+        setCountingDetails([...countingDetails, ...newDetails]);
+        router.push(`/stock-counting/${eventId}`);
+    };
 
     const [filteredEvents, setFilteredEvents] = useState<CountingEvent[]>([]);
     const searchInputRef = useRef<HTMLInputElement>(null);
@@ -357,6 +461,72 @@ export default function StockCountingPage() {
                         </div>
                     ))}
                 </motion.div>
+
+                {/* GLOBAL SHRINKAGE & HAYALET STOK (PHANTOM INVENTORY) MİKRO SAYIM RADARI */}
+                {cycleCountProposals.length > 0 && (
+                    <motion.div
+                        variants={itemVariants}
+                        className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white rounded-3xl p-5 md:p-6 shadow-lg border border-slate-800 space-y-4"
+                    >
+                        <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
+                            <div>
+                                <div className="flex items-center gap-2">
+                                    <Badge className="bg-rose-500/20 text-rose-300 border border-rose-400/30 text-[10px] font-bold">
+                                        AI Shrinkage & Hayalet Stok Radarı
+                                    </Badge>
+                                    <Badge className="bg-indigo-500/20 text-indigo-300 border border-indigo-400/30 text-[10px] font-bold">
+                                        Günlük 10 Dk Döngüsel Sayım (Cycle Count)
+                                    </Badge>
+                                </div>
+                                <h2 className="text-lg font-extrabold text-white mt-1.5">
+                                    Şüpheli &quot;Hayalet Stok&quot; (1-2 Adet Kalan) & Kayıp/Kaçak Riskli Reyonlar
+                                </h2>
+                                <p className="text-xs text-slate-300 mt-0.5">
+                                    Sistemde 1-2 adet görünüp rafta bulunamama (Phantom Inventory) ihtimali en yüksek gruplar. Tüm mağazayı saymak yerine 10 dakikalık hedefli mikro sayım başlatın.
+                                </p>
+                            </div>
+                            <div className="px-4 py-2 rounded-2xl bg-white/5 border border-white/10 text-right shrink-0">
+                                <span className="text-[10px] uppercase font-bold text-indigo-300 block">
+                                    Hedef Envanter Doğruluğu
+                                </span>
+                                <span className="text-2xl font-extrabold text-emerald-400">%99.4</span>
+                            </div>
+                        </div>
+
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                            {cycleCountProposals.map((prop, idx) => (
+                                <div
+                                    key={idx}
+                                    className="p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all flex flex-col justify-between gap-3"
+                                >
+                                    <div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xs font-extrabold text-white">{prop.brand}</span>
+                                            <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-400/30">
+                                                {prop.items.length} Şüpheli SKU
+                                            </span>
+                                        </div>
+                                        <p className="text-xs font-semibold text-indigo-300 mt-0.5">{prop.group}</p>
+                                        <p className="text-[11px] text-slate-300 mt-2">
+                                            Riskteki Stok Değeri:{" "}
+                                            <strong className="text-rose-300">
+                                                {prop.totalAtRiskVal.toLocaleString("tr-TR")} ₺
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <Button
+                                        size="sm"
+                                        onClick={() => handleStartQuickCycleCount(prop.brand, prop.group, prop.items)}
+                                        className="w-full h-8 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold gap-1.5"
+                                    >
+                                        <PlayCircle className="w-3.5 h-3.5" />
+                                        10 Dk Mikro Sayım Başlat
+                                    </Button>
+                                </div>
+                            ))}
+                        </div>
+                    </motion.div>
+                )}
 
                 {/* Search & Filter Bar */}
                 <motion.div

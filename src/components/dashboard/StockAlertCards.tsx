@@ -1,6 +1,6 @@
-import { Card } from "@/components/ui/card";
-import { Clock, AlertCircle, TrendingDown, Package2, TrendingUp, LineChart } from "lucide-react";
-import { motion } from "framer-motion";
+"use client";
+
+import { Clock, AlertCircle, TrendingDown, Package2, TrendingUp, ChevronRight } from "lucide-react";
 
 interface StockAlertCardsProps {
   stockOutGroupsCount: number;
@@ -29,21 +29,6 @@ interface StockAlertCardsProps {
   setHighStockDialogOpen: (val: boolean) => void;
 }
 
-const containerVariants = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.08
-    }
-  }
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, x: 20 },
-  show: { opacity: 1, x: 0, transition: { type: "spring", stiffness: 300, damping: 24 } }
-};
-
 export function StockAlertCards({
   stockOutGroupsCount,
   stockOutCount,
@@ -64,114 +49,155 @@ export function StockAlertCards({
   highStockGroupsCount,
   highStockCount,
   highStockPercentage,
-  setHighStockDialogOpen
+  setHighStockDialogOpen,
 }: StockAlertCardsProps) {
+  const segments = [
+    {
+      title: "Tükenme Riski (15G)",
+      subtitle: `${stockOutGroupsCount} Kritik Model`,
+      count: stockOutCount,
+      percentage: stockOutPercentage,
+      onClick: () => setStockOutDialogOpen(true),
+      icon: Clock,
+      badgeBg: "bg-purple-50 text-purple-700 border-purple-200 dark:bg-purple-500/10 dark:text-purple-300",
+      iconBg: "bg-purple-100/80 text-purple-600 dark:bg-purple-500/20 dark:text-purple-400",
+      barColor: "bg-purple-500",
+      borderHover: "hover:border-purple-300",
+    },
+    {
+      title: "Ölü Stok (0 Satış)",
+      subtitle: `${deadStockGroupsCount} Hareketsiz SKU`,
+      count: deadStockCount,
+      percentage: deadStockPercentage,
+      onClick: () => setDeadStockDialogOpen(true),
+      icon: AlertCircle,
+      badgeBg: "bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-500/10 dark:text-rose-300",
+      iconBg: "bg-rose-100/80 text-rose-600 dark:bg-rose-500/20 dark:text-rose-400",
+      barColor: "bg-rose-500",
+      borderHover: "hover:border-rose-300",
+    },
+    {
+      title: "Düşük Stok (1-3 Adet)",
+      subtitle: `${lowStockGroupsCount} Model`,
+      count: lowStockCount,
+      percentage: lowStockPercentage,
+      onClick: () => setLowStockDialogOpen(true),
+      icon: TrendingDown,
+      badgeBg: "bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-500/10 dark:text-amber-300",
+      iconBg: "bg-amber-100/80 text-amber-600 dark:bg-amber-500/20 dark:text-amber-400",
+      barColor: "bg-amber-500",
+      borderHover: "hover:border-amber-300",
+    },
+    {
+      title: "Orta / İdeal Stok (4-6)",
+      subtitle: `${mediumStockGroupsCount} Model`,
+      count: mediumStockCount,
+      percentage: mediumStockPercentage,
+      onClick: () => setMediumStockDialogOpen(true),
+      icon: Package2,
+      badgeBg: "bg-sky-50 text-sky-700 border-sky-200 dark:bg-sky-500/10 dark:text-sky-300",
+      iconBg: "bg-sky-100/80 text-sky-600 dark:bg-sky-500/20 dark:text-sky-400",
+      barColor: "bg-sky-500",
+      borderHover: "hover:border-sky-300",
+    },
+    {
+      title: "Yüksek Stok (7+ Adet)",
+      subtitle: `${highStockGroupsCount} Model`,
+      count: highStockCount,
+      percentage: highStockPercentage,
+      onClick: () => setHighStockDialogOpen(true),
+      icon: TrendingUp,
+      badgeBg: "bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-500/10 dark:text-emerald-300",
+      iconBg: "bg-emerald-100/80 text-emerald-600 dark:bg-emerald-500/20 dark:text-emerald-400",
+      barColor: "bg-emerald-500",
+      borderHover: "hover:border-emerald-300",
+    },
+  ];
+
   return (
-    <motion.div 
-      className="col-span-12 lg:col-span-4 flex flex-col gap-4"
-      variants={containerVariants}
-      initial="hidden"
-      animate="show"
-    >
-      {/* Forecast / Stock-out Card */}
-      <motion.button variants={itemVariants} onClick={() => setStockOutDialogOpen(true)} className="text-left w-full group">
-        <Card className="border-l-4 border-l-purple-500 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-[0_4px_20px_rgb(0,0,0,0.04)] rounded-3xl group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] group-hover:-translate-y-0.5 transition-all duration-300 overflow-hidden relative">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/5 dark:bg-purple-500/10 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none" />
-          <div className="p-4 flex justify-between items-center relative z-10">
-            <div>
-              <p className="text-[11px] font-bold text-purple-700 dark:text-purple-400 uppercase tracking-wider flex items-center gap-1.5">
-                <Clock className="w-3.5 h-3.5" /> Tükenme Riski (15 Gün)
-              </p>
-              <p className="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">{stockOutGroupsCount}</p>
-              <p className="text-[11px] font-medium text-slate-500 dark:text-slate-400 mt-1">Kritik SKU • {stockOutCount.toLocaleString('tr-TR')} Adet</p>
-            </div>
-            <div className="flex flex-col items-center justify-center w-12 h-12 rounded-2xl bg-purple-50 dark:bg-purple-500/10 group-hover:bg-purple-100 dark:group-hover:bg-purple-500/20 transition-colors">
-              <LineChart className="h-5 w-5 text-purple-600 dark:text-purple-400" />
-            </div>
-          </div>
-          <div className="px-5 pb-4 pt-1 relative z-10"><div className="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden"><div className="bg-purple-500 h-full rounded-full" style={{ width: `${stockOutPercentage}%` }} /></div></div>
-        </Card>
-      </motion.button>
+    <div className="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-4 md:p-5 shadow-sm">
+      {/* Üst Başlık ve Bütüncül Dağılım Çubuğu */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+        <div className="flex items-center gap-2">
+          <div className="w-2 h-5 rounded-full bg-indigo-600" />
+          <h3 className="text-sm font-bold text-slate-900 dark:text-white">
+            Stok Sağlığı & Dağılım Spektrumu
+          </h3>
+          <span className="text-xs text-slate-400 hidden md:inline">
+            (Detaylı beden ve model listesi için kartlara tıklayın)
+          </span>
+        </div>
+        <div className="flex items-center gap-3 text-[11px] font-semibold text-slate-500">
+          <span className="flex items-center gap-1.5">
+            <span className="w-2 h-2 rounded-full bg-amber-500" /> Düşük: %{lowStockPercentage}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="w-2 h-2 rounded-full bg-sky-500" /> Orta: %{mediumStockPercentage}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="w-2 h-2 rounded-full bg-emerald-500" /> Yüksek: %{highStockPercentage}
+          </span>
+        </div>
+      </div>
 
-      {/* Dead Stock Card */}
-      <motion.button variants={itemVariants} onClick={() => setDeadStockDialogOpen(true)} className="text-left w-full group">
-        <Card className="border-l-4 border-l-rose-500 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-[0_4px_20px_rgb(0,0,0,0.04)] rounded-3xl group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] group-hover:-translate-y-0.5 transition-all duration-300 overflow-hidden relative">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-rose-500/5 dark:bg-rose-500/10 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none" />
-          <div className="p-4 flex justify-between items-center relative z-10">
-            <div>
-              <p className="text-[11px] font-bold text-rose-700 dark:text-rose-400 uppercase tracking-wider flex items-center gap-1.5">
-                <AlertCircle className="w-3.5 h-3.5" /> Ölü Stok Riski
-              </p>
-              <p className="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">{deadStockCount.toLocaleString('tr-TR')}</p>
-              <p className="text-[11px] font-medium text-slate-500 dark:text-slate-400 mt-1">%{deadStockPercentage} • {deadStockGroupsCount} SKU (Sıfır Satış)</p>
-            </div>
-            <div className="flex flex-col items-center justify-center w-12 h-12 rounded-2xl bg-rose-50 dark:bg-rose-500/10 group-hover:bg-rose-100 dark:group-hover:bg-rose-500/20 transition-colors">
-              <TrendingDown className="h-5 w-5 text-rose-600 dark:text-rose-400" />
-            </div>
-          </div>
-          <div className="px-5 pb-4 pt-1 relative z-10"><div className="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden"><div className="bg-rose-500 h-full rounded-full" style={{ width: `${deadStockPercentage}%` }} /></div></div>
-        </Card>
-      </motion.button>
+      {/* Oransal Spektrum Barı */}
+      <div className="w-full h-2.5 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden flex mb-4 p-0.5 gap-0.5">
+        <div
+          className="h-full bg-amber-500 rounded-l-full transition-all duration-500"
+          style={{ width: `${Math.max(2, parseFloat(lowStockPercentage) || 0)}%` }}
+          title={`Düşük Stok: %${lowStockPercentage}`}
+        />
+        <div
+          className="h-full bg-sky-500 transition-all duration-500"
+          style={{ width: `${Math.max(2, parseFloat(mediumStockPercentage) || 0)}%` }}
+          title={`Orta Stok: %${mediumStockPercentage}`}
+        />
+        <div
+          className="h-full bg-emerald-500 rounded-r-full transition-all duration-500"
+          style={{ width: `${Math.max(2, parseFloat(highStockPercentage) || 0)}%` }}
+          title={`Yüksek Stok: %${highStockPercentage}`}
+        />
+      </div>
 
-      {/* Low Stock Card */}
-      <motion.button variants={itemVariants} onClick={() => setLowStockDialogOpen(true)} className="text-left w-full group">
-        <Card className="border-l-4 border-l-amber-500 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-[0_4px_20px_rgb(0,0,0,0.04)] rounded-3xl group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] group-hover:-translate-y-0.5 transition-all duration-300 overflow-hidden relative">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/5 dark:bg-amber-500/10 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none" />
-          <div className="p-4 flex justify-between items-center relative z-10">
-            <div>
-              <p className="text-[11px] font-bold text-amber-700 dark:text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
-                <TrendingDown className="w-3.5 h-3.5" /> Düşük Stok
-              </p>
-              <p className="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">{lowStockCount.toLocaleString('tr-TR')}</p>
-              <p className="text-[11px] font-medium text-slate-500 dark:text-slate-400 mt-1">%{lowStockPercentage} • {lowStockGroupsCount} SKU</p>
-            </div>
-            <div className="flex flex-col items-center justify-center w-12 h-12 rounded-2xl bg-amber-50 dark:bg-amber-500/10 group-hover:bg-amber-100 dark:group-hover:bg-amber-500/20 transition-colors">
-              <TrendingDown className="h-5 w-5 text-amber-600 dark:text-amber-400" />
-            </div>
-          </div>
-          <div className="px-5 pb-4 pt-1 relative z-10"><div className="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden"><div className="bg-amber-500 h-full rounded-full" style={{ width: `${lowStockPercentage}%` }} /></div></div>
-        </Card>
-      </motion.button>
+      {/* 5 Yatay Etkileşimli Segment Kartı */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-3">
+        {segments.map((seg, idx) => {
+          const Icon = seg.icon;
+          const isLastOdd = idx === segments.length - 1;
+          return (
+            <button
+              key={idx}
+              onClick={seg.onClick}
+              className={`group text-left p-3 sm:p-3.5 rounded-xl border border-slate-200/80 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/40 hover:bg-white dark:hover:bg-slate-800 ${seg.borderHover} hover:shadow-sm transition-all flex flex-col justify-between ${
+                isLastOdd ? "col-span-2 sm:col-span-1" : ""
+              }`}
+            >
+              <div className="flex items-center justify-between w-full mb-2">
+                <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${seg.iconBg}`}>
+                  <Icon className="w-4 h-4" />
+                </div>
+                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${seg.badgeBg}`}>
+                  %{seg.percentage}
+                </span>
+              </div>
 
-      {/* Medium Stock Card */}
-      <motion.button variants={itemVariants} onClick={() => setMediumStockDialogOpen(true)} className="text-left w-full group">
-        <Card className="border-l-4 border-l-sky-500 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-[0_4px_20px_rgb(0,0,0,0.04)] rounded-3xl group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] group-hover:-translate-y-0.5 transition-all duration-300 overflow-hidden relative">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-sky-500/5 dark:bg-sky-500/10 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none" />
-          <div className="p-4 flex justify-between items-center relative z-10">
-            <div>
-              <p className="text-[11px] font-bold text-sky-700 dark:text-sky-400 uppercase tracking-wider flex items-center gap-1.5">
-                <Package2 className="w-3.5 h-3.5" /> Orta Stok (4-6)
-              </p>
-              <p className="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">{mediumStockCount.toLocaleString('tr-TR')}</p>
-              <p className="text-[11px] font-medium text-slate-500 dark:text-slate-400 mt-1">%{mediumStockPercentage} • {mediumStockGroupsCount} SKU</p>
-            </div>
-            <div className="flex flex-col items-center justify-center w-12 h-12 rounded-2xl bg-sky-50 dark:bg-sky-500/10 group-hover:bg-sky-100 dark:group-hover:bg-sky-500/20 transition-colors">
-              <Package2 className="h-5 w-5 text-sky-600 dark:text-sky-400" />
-            </div>
-          </div>
-          <div className="px-5 pb-4 pt-1 relative z-10"><div className="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden"><div className="bg-sky-500 h-full rounded-full" style={{ width: `${mediumStockPercentage}%` }} /></div></div>
-        </Card>
-      </motion.button>
-
-      {/* High Stock Card */}
-      <motion.button variants={itemVariants} onClick={() => setHighStockDialogOpen(true)} className="text-left w-full group">
-        <Card className="border-l-4 border-l-emerald-500 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-[0_4px_20px_rgb(0,0,0,0.04)] rounded-3xl group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] group-hover:-translate-y-0.5 transition-all duration-300 overflow-hidden relative">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 dark:bg-emerald-500/10 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none" />
-          <div className="p-4 flex justify-between items-center relative z-10">
-            <div>
-              <p className="text-[11px] font-bold text-emerald-700 dark:text-emerald-400 uppercase tracking-wider flex items-center gap-1.5">
-                <TrendingUp className="w-3.5 h-3.5" /> Yüksek Stok (7+)
-              </p>
-              <p className="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">{highStockCount.toLocaleString('tr-TR')}</p>
-              <p className="text-[11px] font-medium text-slate-500 dark:text-slate-400 mt-1">%{highStockPercentage} • {highStockGroupsCount} SKU</p>
-            </div>
-            <div className="flex flex-col items-center justify-center w-12 h-12 rounded-2xl bg-emerald-50 dark:bg-emerald-500/10 group-hover:bg-emerald-100 dark:group-hover:bg-emerald-500/20 transition-colors">
-              <TrendingUp className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
-            </div>
-          </div>
-          <div className="px-5 pb-4 pt-1 relative z-10"><div className="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden"><div className="bg-emerald-500 h-full rounded-full" style={{ width: `${highStockPercentage}%` }} /></div></div>
-        </Card>
-      </motion.button>
-    </motion.div>
+              <div>
+                <p className="text-xs font-bold text-slate-700 dark:text-slate-200 group-hover:text-slate-900 dark:group-hover:text-white flex items-center justify-between">
+                  <span className="truncate">{seg.title}</span>
+                  <ChevronRight className="w-3.5 h-3.5 text-slate-400 group-hover:translate-x-0.5 transition-transform shrink-0" />
+                </p>
+                <div className="flex items-baseline gap-1.5 mt-1">
+                  <span className="text-xl font-extrabold text-slate-900 dark:text-white">
+                    {seg.count.toLocaleString("tr-TR")}
+                  </span>
+                  <span className="text-[11px] font-medium text-slate-400">Adet</span>
+                </div>
+                <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">{seg.subtitle}</p>
+              </div>
+            </button>
+          );
+        })}
+      </div>
+    </div>
   );
 }

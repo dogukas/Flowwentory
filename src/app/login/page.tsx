@@ -51,24 +51,13 @@ export default function LoginPage() {
     e.preventDefault();
     setError("");
     setLoading(true);
-    try {
-      const { error } = await supabase.auth.signInWithPassword({ email, password });
-      if (error) {
-        setError(error.message.includes("Invalid login") ? "E-posta veya şifre hatalı." : error.message);
-        gsap.fromTo(cardRef.current, { x: -8 }, { x: 0, duration: 0.45, ease: "elastic.out(1, 0.3)" });
-      } else {
-        const urlParams = new URLSearchParams(window.location.search);
-        const redirectUrl = urlParams.get("redirect") || "/dashboard";
-        window.location.href = redirectUrl;
-      }
-    } catch {
-      setError("Bir hata oluştu, lütfen tekrar deneyin.");
-    } finally {
-      setLoading(false);
-    }
+    // Auth geçici olarak kaldırıldığı için direkt yönlendir
+    const urlParams = new URLSearchParams(window.location.search);
+    const redirectUrl = urlParams.get("redirect") || "/dashboard";
+    router.push(redirectUrl);
   };
 
-  const isFormFilled = email.length > 0 && password.length > 0;
+  const isFormFilled = true;
 
   return (
     <div ref={containerRef} className="min-h-screen flex items-center justify-center overflow-hidden relative px-4" style={{ background: "#07070f" }}>
@@ -142,7 +131,6 @@ export default function LoginPage() {
                 onFocus={() => setEmailFocused(true)}
                 onBlur={() => setEmailFocused(false)}
                 placeholder="ornek@firma.com"
-                required
                 autoComplete="email"
                 className="w-full bg-transparent text-white placeholder:text-slate-600 rounded-2xl px-4 py-3.5 text-sm outline-none"
               />
@@ -168,7 +156,6 @@ export default function LoginPage() {
                 onFocus={() => setPasswordFocused(true)}
                 onBlur={() => setPasswordFocused(false)}
                 placeholder="••••••••"
-                required
                 autoComplete="current-password"
                 className="w-full bg-transparent text-white placeholder:text-slate-600 rounded-2xl px-4 py-3.5 pr-12 text-sm outline-none"
               />

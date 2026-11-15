@@ -55,6 +55,7 @@ import { motion } from "framer-motion";
 
 import { useCountingStore } from "@/store/useCountingStore";
 import { useStockStore } from "@/store/useStockStore";
+import { useRetailBrainStore } from "@/store/useRetailBrainStore";
 import { fetchAllRows } from "@/lib/supabase";
 import { BarcodeScanner } from "@/components/counting";
 import type { CountingEvent, CountingDetail } from "@/types/counting";
@@ -76,6 +77,7 @@ export default function CountingDetailPage() {
     } = useCountingStore();
 
     const { stockData, setStockData } = useStockStore();
+    const flagSkuFromCounting = useRetailBrainStore((s) => s.flagSkuFromCounting);
 
     const [searchQuery, setSearchQuery] = useState("");
     const [currentEvent, setCurrentEvent] = useState<CountingEvent | null>(null);
@@ -254,6 +256,34 @@ export default function CountingDetailPage() {
     };
 
     const confirmComplete = () => {
+        // Kapalı Döngü Senaryosu: Sayım tamamlandığında fark çıkan ürünleri ana stokta güncelle
+        // ve eksik çıkan / kritik stoğa düşen SKU'ları RPT Planlama Merkezine acil ikmal olarak düşür!
+        const countedMap = new Map<string, CountingDetail>();
+        eventDetails.forEach((d) => {
+            if (d.counted_quantity > 0 || d.discrepancy !== 0) {
+                const key = `${d.marka}-${d.urun_kodu}-${d.renk_kodu}-${d.beden}`;
+                countedMap.set(key, d);
+                if (d.discrepancy < 0 || d.counted_quantity <= 3) {
+                    flagSkuFromCounting(d.urun_kodu);
+                }
+            }
+        });
+
+        if (countedMap.size > 0 && stockData.length > 0) {
+            const updatedStocks = stockData.map((item) => {
+                const key = `${item.Marka}-${item["Ürün Kodu"]}-${item["Renk Kodu"]}-${item.Beden}`;
+                const match = countedMap.get(key);
+                if (match) {
+                    return {
+                        ...item,
+                        Envanter: String(match.counted_quantity),
+                    };
+                }
+                return item;
+            });
+            setStockData(updatedStocks);
+        }
+
         updateCountingEvent(eventId, {
             status: "COMPLETED",
             completed_at: new Date(),

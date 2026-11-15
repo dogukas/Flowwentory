@@ -1,13 +1,19 @@
+"use client";
+
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ResponsivePie } from "@nivo/pie";
-import { motion } from "framer-motion";
 import { useMemo } from "react";
 
-// Nivo 'set2' renk paleti
 const SET2_COLORS = [
-  '#66c2a5', '#fc8d62', '#8da0cb', '#e78ac3',
-  '#a6d854', '#ffd92f', '#e5c494', '#b3b3b3',
+  "#6366f1",
+  "#10b981",
+  "#f59e0b",
+  "#ec4899",
+  "#0ea5e9",
+  "#8b5cf6",
+  "#14b8a6",
+  "#64748b",
 ];
 
 interface BrandPieChartProps {
@@ -21,130 +27,122 @@ export function BrandPieChart({
   totalInventory,
   pieChartData,
   brandTooltipData,
-  setSelectedBrand
+  setSelectedBrand,
 }: BrandPieChartProps) {
-  // Marka → renk eşleşmesi (Nivo set2 sıralamasıyla aynı)
   const brandColors = useMemo(() => {
     return pieChartData.map((item, i) => ({
       id: item.id,
       label: item.label,
+      value: item.value,
       color: SET2_COLORS[i % SET2_COLORS.length],
     }));
   }, [pieChartData]);
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.2 }}
-      className="col-span-12 lg:col-span-4 h-full"
-    >
-      <Card className="h-full flex flex-col dashboard-card bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl border border-white/60 dark:border-slate-800/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all duration-300">
-        <CardHeader className="pb-1 pt-6 px-6">
-          <CardTitle className="text-base font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2">
-            <div className="w-2 h-6 bg-indigo-500 rounded-full" />
+    <Card className="col-span-12 lg:col-span-4 h-[390px] flex flex-col bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-sm rounded-2xl">
+      <CardHeader className="pb-1 pt-5 px-5">
+        <CardTitle className="text-sm font-bold text-slate-900 dark:text-white flex items-center justify-between">
+          <span className="flex items-center gap-2">
+            <span className="w-2 h-5 bg-violet-600 rounded-full" />
             Marka Stok Dağılımı
-          </CardTitle>
-          <p className="text-xs font-medium text-slate-500 dark:text-slate-400 mt-1 pl-4">Toplam envanter: <span className="text-slate-900 dark:text-white font-bold">{totalInventory.toLocaleString('tr-TR')}</span></p>
-        </CardHeader>
-        <CardContent className="px-4 pb-4 flex-1 flex flex-col justify-center">
-          {/* Grafik */}
-          <div className="h-[240px] w-full flex-shrink-0">
-            <ResponsivePie
-              data={pieChartData}
-              margin={{ top: 10, right: 80, bottom: 10, left: 80 }}
-              innerRadius={0.65}
-              padAngle={2}
-              cornerRadius={8}
-              activeOuterRadiusOffset={6}
-              colors={{ scheme: 'set2' }}
-              borderWidth={0}
-              arcLinkLabelsSkipAngle={12}
-              arcLinkLabelsTextColor="#64748b"
-              arcLinkLabelsThickness={1.5}
-              arcLinkLabelsColor={{ from: 'color' }}
-              arcLinkLabelsDiagonalLength={10}
-              arcLinkLabelsStraightLength={6}
-              arcLinkLabelsTextOffset={3}
-              arcLabelsSkipAngle={999}
-              enableArcLabels={false}
-              theme={{
-                tooltip: {
-                  container: {
-                    background: 'transparent',
-                    boxShadow: 'none',
-                    padding: 0,
-                  }
-                }
-              }}
-              tooltip={({ datum }) => {
-                const tooltipInfo = brandTooltipData[datum.id as string];
-                const productGroups = tooltipInfo?.productGroups || {};
-                const totalUniqueProducts = tooltipInfo?.totalUniqueProducts || 0;
-                return (
-                  <motion.div 
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    className="bg-white/95 dark:bg-slate-900/95 backdrop-blur-md p-4 rounded-2xl shadow-2xl border border-slate-200/50 dark:border-slate-700/50 min-w-[280px]"
-                  >
-                    <div className="border-b border-slate-100 dark:border-slate-800 pb-3 mb-3">
-                      <div className="flex items-center justify-between mb-1">
-                        <p className="font-bold text-slate-900 dark:text-white text-base">{datum.id}</p>
-                        <div className="w-3 h-3 rounded-full shadow-sm" style={{ backgroundColor: datum.color }} />
-                      </div>
-                      <div className="flex items-center gap-4 text-xs font-medium text-slate-500 dark:text-slate-400">
-                        <span>{datum.value.toLocaleString('tr-TR')} adet stok</span>
-                        <span>•</span>
-                        <span>{totalUniqueProducts} farklı ürün</span>
-                      </div>
-                    </div>
-                    <div className="text-sm space-y-2">
-                      {Object.entries(productGroups)
-                        .sort(([, a]: any, [, b]: any) => b.total - a.total)
-                        .map(([group, data]: [string, any], index) => {
-                          const percentage = ((data.total / datum.value) * 100).toFixed(1);
-                          return (
-                            <div key={index} className="flex items-center justify-between group">
-                              <div className="flex items-center gap-2">
-                                <span className="font-semibold text-slate-700 dark:text-slate-300 group-hover:text-indigo-600 transition-colors">{group}</span>
-                                <span className="text-[10px] text-slate-400">({data.count} tip)</span>
-                              </div>
-                              <div className="flex items-center gap-2">
-                                <span className="text-slate-900 dark:text-white font-bold">{data.total}</span>
-                                <Badge variant="outline" className="bg-indigo-50 dark:bg-indigo-500/10 text-indigo-700 dark:text-indigo-400 border-indigo-200 dark:border-indigo-500/20 text-[10px] py-0 px-1.5 h-4">
-                                  %{percentage}
-                                </Badge>
-                              </div>
-                            </div>
-                          );
-                        })}
-                    </div>
-                  </motion.div>
-                );
-              }}
-              onClick={({ id }) => setSelectedBrand(id as string)}
-              legends={[]}
-            />
+          </span>
+          <span className="text-xs font-semibold text-slate-400">
+            {pieChartData.length} Marka
+          </span>
+        </CardTitle>
+        <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5 pl-4">
+          Detaylı ürün grubu dağılımı için dilime tıklayın
+        </p>
+      </CardHeader>
+
+      <CardContent className="px-4 pb-4 flex-1 flex flex-col justify-between min-h-0">
+        <div className="relative h-[220px] w-full">
+          {/* Merkez Toplam */}
+          <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none z-10">
+            <span className="text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight">
+              {totalInventory.toLocaleString("tr-TR")}
+            </span>
+            <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">
+              Toplam Adet
+            </span>
           </div>
 
-          {/* Custom Legend — flexbox wrap ile tüm markalar sığar */}
-          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5 pt-2 border-t border-slate-100 dark:border-slate-800/50">
-            {brandColors.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => setSelectedBrand(item.id)}
-                className="flex items-center gap-1.5 text-[11px] font-medium text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors cursor-pointer"
-              >
-                <span
-                  className="w-2.5 h-2.5 rounded-full flex-shrink-0"
-                  style={{ backgroundColor: item.color }}
-                />
-                {item.label}
-              </button>
-            ))}
-          </div>
-        </CardContent>
-      </Card>
-    </motion.div>
+          <ResponsivePie
+            data={brandColors}
+            colors={{ datum: "data.color" }}
+            margin={{ top: 12, right: 24, bottom: 12, left: 24 }}
+            innerRadius={0.68}
+            padAngle={1.8}
+            cornerRadius={5}
+            activeOuterRadiusOffset={6}
+            borderWidth={0}
+            enableArcLinkLabels={false}
+            enableArcLabels={false}
+            theme={{
+              tooltip: {
+                container: {
+                  background: "transparent",
+                  boxShadow: "none",
+                  padding: 0,
+                },
+              },
+            }}
+            tooltip={({ datum }) => {
+              const tooltipInfo = brandTooltipData[datum.id as string];
+              const productGroups = tooltipInfo?.productGroups || {};
+              const totalUniqueProducts = tooltipInfo?.totalUniqueProducts || 0;
+              return (
+                <div className="bg-white dark:bg-slate-900 p-3.5 rounded-xl shadow-xl border border-slate-200 dark:border-slate-700 min-w-[240px]">
+                  <div className="border-b border-slate-100 dark:border-slate-800 pb-2 mb-2">
+                    <div className="flex items-center justify-between">
+                      <p className="font-bold text-slate-900 dark:text-white text-sm">{datum.id}</p>
+                      <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: datum.color }} />
+                    </div>
+                    <p className="text-[11px] text-slate-500 mt-0.5">
+                      {datum.value.toLocaleString("tr-TR")} adet • {totalUniqueProducts} model
+                    </p>
+                  </div>
+                  <div className="space-y-1.5 text-xs">
+                    {Object.entries(productGroups)
+                      .sort(([, a]: any, [, b]: any) => b.total - a.total)
+                      .slice(0, 5)
+                      .map(([group, data]: [string, any], index) => {
+                        const percentage = ((data.total / datum.value) * 100).toFixed(1);
+                        return (
+                          <div key={index} className="flex items-center justify-between gap-2">
+                            <span className="text-slate-600 dark:text-slate-300 truncate">{group}</span>
+                            <div className="flex items-center gap-1.5 shrink-0">
+                              <span className="font-bold text-slate-900 dark:text-white">{data.total}</span>
+                              <Badge variant="outline" className="text-[10px] py-0 px-1 h-4 bg-slate-50">
+                                %{percentage}
+                              </Badge>
+                            </div>
+                          </div>
+                        );
+                      })}
+                  </div>
+                </div>
+              );
+            }}
+            onClick={({ id }) => setSelectedBrand(id as string)}
+            legends={[]}
+          />
+        </div>
+
+        {/* Kompakt Marka Etiketleri */}
+        <div className="flex flex-wrap items-center justify-center gap-1.5 pt-2.5 border-t border-slate-100 dark:border-slate-800 max-h-[76px] overflow-y-auto">
+          {brandColors.map(item => (
+            <button
+              key={item.id}
+              onClick={() => setSelectedBrand(item.id)}
+              className="flex items-center gap-1.5 px-2 py-1 rounded-lg bg-slate-50 hover:bg-slate-100 dark:bg-slate-800/60 text-[11px] font-semibold text-slate-700 dark:text-slate-300 transition-colors"
+            >
+              <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: item.color }} />
+              <span className="truncate max-w-[90px]">{item.label}</span>
+            </button>
+          ))}
+        </div>
+      </CardContent>
+    </Card>
   );
 }

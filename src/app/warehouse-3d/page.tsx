@@ -10,20 +10,27 @@ import {
     PointerLockControls
 } from "@react-three/drei";
 import { useStockStore } from "@/store/useStockStore";
+import { useRetailBrainStore } from "@/store/useRetailBrainStore";
 import { useLayoutEffect, useRef, useState, useMemo, useEffect } from "react";
+import Link from "next/link";
 import gsap from "gsap";
 import * as THREE from "three";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import { Input } from "@/components/ui/input";
+import { Badge } from "@/components/ui/badge";
 import {
     X,
     Search,
     Thermometer,
     Target,
     MousePointer2,
-    Box as BoxIcon
+    Box as BoxIcon,
+    Truck,
+    CheckCircle2,
+    Navigation,
+    ArrowLeftRight,
 } from "lucide-react";
 
 // Types
@@ -133,7 +140,6 @@ const Shelf = ({ position, items, brandName, onClickItem, heatmapMode, searchQue
                 color="white"
                 anchorX="center"
                 maxWidth={4}
-                font="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff"
             >
                 {brandName}
             </Text>
@@ -334,7 +340,8 @@ const PickingPath = ({ points }: { points: THREE.Vector3[] }) => {
 
 export default function Warehouse3D() {
     const stockData = useStockStore((state) => state.stockData);
-    const fetchStocks = useStockStore((state) => state.fetchStocks);
+    const setStockData = useStockStore((state) => state.setStockData);
+    const { pickingQueue, markPickingComplete } = useRetailBrainStore();
 
     const [selectedItem, setSelectedItem] = useState<any>(null);
     const [searchQuery, setSearchQuery] = useState("");
@@ -342,29 +349,86 @@ export default function Warehouse3D() {
     const [abcMode, setAbcMode] = useState(false);
     const [viewMode, setViewMode] = useState<"orbit" | "fps">("orbit");
     const [activePath, setActivePath] = useState<THREE.Vector3[]>([]);
+    const [mobileHud, setMobileHud] = useState<"3d" | "controls" | "picking">("3d");
 
     useEffect(() => {
-        fetchStocks();
-    }, [fetchStocks]);
+        const loadStocksIfEmpty = async () => {
+            if (stockData && stockData.length > 0) return;
+            try {
+                const { fetchAllRows } = await import("@/lib/supabase");
+                const stocks = await fetchAllRows("stocks");
+                if (stocks && stocks.length > 0) {
+                    const formatted = stocks.map((item: any) => ({
+                        Marka: item.marka,
+                        "Ürün Grubu": item.urun_grubu,
+                        "Ürün Kodu": item.urun_kodu,
+                        "Renk Kodu": item.renk_kodu,
+                        Beden: item.beden,
+                        Envanter: item.envanter,
+                        Barkod: item.barkod,
+                        Sezon: item.sezon,
+                    }));
+                    setStockData(formatted);
+                }
+            } catch (err) {
+                console.error("3D Depo veri yükleme hatası:", err);
+            }
+        };
+        loadStocksIfEmpty();
+    }, [stockData, setStockData]);
 
-    // Simulate Picking Path
+    // Marka raflarının 3D koordinat haritası (RPT onaylı ürünlerin gerçek raflarına rota çizmek için)
+    const brandShelfCoords = useMemo(() => {
+        const safeData = Array.isArray(stockData) ? stockData : [];
+        const grouped: Record<string, any[]> = {};
+        safeData.forEach(item => {
+            if (!item || !item.Marka) return;
+            if (!grouped[item.Marka]) grouped[item.Marka] = [];
+            grouped[item.Marka].push(item);
+        });
+        const sortedBrands = Object.entries(grouped)
+            .sort((a, b) => b[1].length - a[1].length)
+            .slice(0, 16)
+            .map(([brand]) => brand);
+
+        const coords: Record<string, THREE.Vector3> = {};
+        sortedBrands.forEach((brand, i) => {
+            const row = Math.floor(i / 4);
+            const col = i % 4;
+            coords[brand] = new THREE.Vector3((col - 1.5) * 8, 1.5, (row - 1.5) * 8 + 1.5);
+        });
+        return coords;
+    }, [stockData]);
+
+    // Simulate Picking Path (Önce RPT/Transfer kuyruğundaki gerçek raflara, yoksa örnek raflara rota çizer)
     const simulatePath = () => {
         const safeData = Array.isArray(stockData) ? stockData : [];
         if (safeData.length === 0) return;
 
-        // Pick random target points within the warehouse bounds
-        // The warehouse layout is roughly 32x32 based on shelf distribution
-        const points = [];
-        for (let i = 0; i < 5; i++) {
-            points.push(new THREE.Vector3(
-                (Math.random() * 24) - 12, // X
-                1.5,                       // Y (Picking height)
-                (Math.random() * 24) - 12  // Z
-            ));
+        const pendingTasks = pickingQueue.filter(t => t.status === "PENDING");
+        const points: THREE.Vector3[] = [];
+
+        if (pendingTasks.length > 0) {
+            pendingTasks.forEach((task) => {
+                const shelfVec = brandShelfCoords[task.brand];
+                if (shelfVec) {
+                    points.push(shelfVec.clone());
+                } else {
+                    points.push(new THREE.Vector3((Math.random() * 20) - 10, 1.5, (Math.random() * 20) - 10));
+                }
+            });
+        } else {
+            for (let i = 0; i < 5; i++) {
+                points.push(new THREE.Vector3(
+                    (Math.random() * 24) - 12,
+                    1.5,
+                    (Math.random() * 24) - 12
+                ));
+            }
         }
 
-        // Sort by nearest neighbor (Simple TSP)
-        const sortedPoints = [new THREE.Vector3(0, 0, 15)]; // Start at "door"
+        // En yakın komşu (TSP) algoritması ile en kısa toplama rotası
+        const sortedPoints = [new THREE.Vector3(0, 0.5, 16)]; // Sevkiyat Kapısı başlangıcı
         const remaining = [...points];
 
         while (remaining.length > 0) {
@@ -384,19 +448,73 @@ export default function Warehouse3D() {
             remaining.splice(nearestIndex, 1);
         }
 
-        // Add return to door
-        sortedPoints.push(new THREE.Vector3(0, 0, 15));
+        sortedPoints.push(new THREE.Vector3(0, 0.5, 16));
         setActivePath(sortedPoints);
     };
 
+    const pendingTasks = pickingQueue.filter((t) => t.status === "PENDING");
+
     return (
-        <div className="h-screen w-full bg-slate-950 relative overflow-hidden">
+        <div className="h-[calc(100vh-56px)] md:h-screen w-full bg-slate-950 relative overflow-hidden">
+            {/* Mobile Top Switcher Bar (Prevents HUD Overlap on Phones) */}
+            <div className="md:hidden absolute top-4 left-16 right-3 z-20 flex items-center gap-1.5 bg-slate-900/90 border border-slate-800 backdrop-blur-md p-1 rounded-xl shadow-xl">
+                <button
+                    type="button"
+                    onClick={() => setMobileHud("3d")}
+                    className={`flex-1 py-1.5 px-2 rounded-lg text-[11px] font-bold transition-all ${
+                        mobileHud === "3d"
+                            ? "bg-indigo-600 text-white shadow"
+                            : "text-slate-300 hover:text-white"
+                    }`}
+                >
+                    3D Sahne
+                </button>
+                <button
+                    type="button"
+                    onClick={() => setMobileHud(mobileHud === "controls" ? "3d" : "controls")}
+                    className={`flex-1 py-1.5 px-2 rounded-lg text-[11px] font-bold transition-all ${
+                        mobileHud === "controls"
+                            ? "bg-indigo-600 text-white shadow"
+                            : "text-slate-300 hover:text-white"
+                    }`}
+                >
+                    Kontroller
+                </button>
+                <button
+                    type="button"
+                    onClick={() => setMobileHud(mobileHud === "picking" ? "3d" : "picking")}
+                    className={`flex-1 py-1.5 px-2 rounded-lg text-[11px] font-bold transition-all flex items-center justify-center gap-1 ${
+                        mobileHud === "picking"
+                            ? "bg-emerald-600 text-white shadow"
+                            : "text-slate-300 hover:text-white"
+                    }`}
+                >
+                    <span>Picking</span>
+                    <span className="px-1.5 py-0.2 rounded-full bg-emerald-500/30 text-emerald-200 text-[10px]">
+                        {pendingTasks.length}
+                    </span>
+                </button>
+            </div>
+
             {/* HUD & Controls */}
-            <div className="absolute top-4 left-4 z-10 flex flex-col gap-4 w-80">
-                <Card className="p-4 bg-slate-900/80 border-slate-800 backdrop-blur-md">
-                    <div className="flex items-center space-x-2 mb-4">
-                        <BoxIcon className="w-6 h-6 text-indigo-500" />
-                        <h1 className="text-lg font-bold text-white">3D Depo İkizi</h1>
+            <div
+                className={`absolute top-16 md:top-4 left-3 right-3 md:left-16 md:right-auto z-10 flex flex-col gap-4 md:w-80 transition-all ${
+                    mobileHud === "controls" ? "block" : "hidden md:flex"
+                }`}
+            >
+                <Card className="p-4 bg-slate-900/90 md:bg-slate-900/80 border-slate-800 backdrop-blur-md">
+                    <div className="flex items-center justify-between mb-4">
+                        <div className="flex items-center space-x-2">
+                            <BoxIcon className="w-6 h-6 text-indigo-500" />
+                            <h1 className="text-base md:text-lg font-bold text-white">3D Depo İkizi</h1>
+                        </div>
+                        <button
+                            type="button"
+                            onClick={() => setMobileHud("3d")}
+                            className="md:hidden text-xs text-slate-400 hover:text-white px-2 py-1 rounded bg-slate-800"
+                        >
+                            Gizle
+                        </button>
                     </div>
 
                     <div className="space-y-4">
@@ -436,7 +554,7 @@ export default function Warehouse3D() {
                                     }
                                 }} />
                             </div>
-                            <div className="flex items-center justify-between">
+                            <div className="hidden md:flex items-center justify-between">
                                 <div className="flex items-center space-x-2">
                                     <MousePointer2 className="w-4 h-4 text-blue-400" />
                                     <span className="text-sm text-slate-300">FPS Modu (WASD)</span>
@@ -447,19 +565,98 @@ export default function Warehouse3D() {
 
                         {/* Actions */}
                         <Button
-                            className="w-full bg-indigo-600 hover:bg-indigo-700"
-                            onClick={simulatePath}
+                            className="w-full bg-indigo-600 hover:bg-indigo-700 gap-2 text-xs sm:text-sm"
+                            onClick={() => {
+                                simulatePath();
+                                setMobileHud("3d");
+                            }}
                         >
-                            🚀 Rota Simüle Et
+                            <Navigation className="w-4 h-4 shrink-0" />
+                            <span className="truncate">
+                                {pendingTasks.length > 0
+                                    ? `Sevkiyat Rotasını Çiz (${pendingTasks.length} Emir)`
+                                    : "🚀 Örnek Toplama Rotası Çiz"}
+                            </span>
                         </Button>
                     </div>
                 </Card>
             </div>
 
+            {/* SAĞ ÜST: RPT & ŞUBE TRANSFER TOPLAMA LİSTESİ (PICKING QUEUE) */}
+            <div
+                className={`absolute top-16 md:top-4 left-3 right-3 md:left-auto md:right-4 z-10 md:w-84 md:max-w-[340px] ${
+                    mobileHud === "picking" ? "block" : "hidden md:block"
+                }`}
+            >
+                <Card className="p-4 bg-slate-900/90 md:bg-slate-900/85 border-slate-800 backdrop-blur-md text-white shadow-2xl">
+                    <div className="flex items-center justify-between mb-3">
+                        <div className="flex items-center gap-2">
+                            <Truck className="w-5 h-5 text-emerald-400" />
+                            <h2 className="text-sm font-bold">Depo Toplama Listesi (Picking)</h2>
+                        </div>
+                        <Badge className="bg-emerald-500/20 text-emerald-300 border-emerald-500/30 text-[10px]">
+                            {pendingTasks.length} Bekleyen
+                        </Badge>
+                    </div>
+
+                    {pendingTasks.length === 0 ? (
+                        <div className="text-xs text-slate-400 py-3 space-y-2">
+                            <p>RPT Planlama veya Şube Transfer ekranında onayladığınız siparişler otomatik olarak buraya düşer.</p>
+                            <Link
+                                href="/operations/planning"
+                                className="inline-flex items-center gap-1 text-indigo-400 hover:text-indigo-300 font-semibold"
+                            >
+                                RPT Planlama Merkezine Git →
+                            </Link>
+                        </div>
+                    ) : (
+                        <div className="space-y-2 max-h-64 overflow-y-auto pr-1">
+                            {pendingTasks.map((task) => (
+                                <div
+                                    key={task.id}
+                                    onClick={() => setSearchQuery(task.sku)}
+                                    className="p-2.5 rounded-xl bg-slate-800/90 border border-slate-700 hover:border-indigo-500 cursor-pointer transition-all flex items-center justify-between gap-2"
+                                >
+                                    <div>
+                                        <div className="flex items-center gap-1.5">
+                                            <span className="font-mono text-xs font-bold text-indigo-400">
+                                                {task.sku}
+                                            </span>
+                                            <Badge className="bg-white/10 text-slate-200 text-[9px] px-1.5 py-0">
+                                                {task.sourceType === "STORE_TRANSFER" ? "İç Transfer" : "RPT"}
+                                            </Badge>
+                                        </div>
+                                        <div className="text-[11px] text-slate-300 font-medium">
+                                            {task.brand} • +{task.quantity} Adet
+                                        </div>
+                                        {task.targetStore && (
+                                            <div className="text-[10px] text-slate-400 truncate">
+                                                Hedef: {task.targetStore}
+                                            </div>
+                                        )}
+                                    </div>
+                                    <Button
+                                        size="sm"
+                                        onClick={(e) => {
+                                            e.stopPropagation();
+                                            markPickingComplete(task.id);
+                                        }}
+                                        className="h-7 px-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-[10px] font-bold shrink-0"
+                                    >
+                                        <CheckCircle2 className="w-3.5 h-3.5 mr-1" />
+                                        Toplandı
+                                    </Button>
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                </Card>
+            </div>
+
             {/* 3D Canvas */}
-            <Canvas shadows dpr={[1, 2]} gl={{ antialias: false }} camera={{ position: [10, 10, 10], fov: 50 }}>
-                <Environment preset="night" />
-                <ambientLight intensity={0.5} />
+            <Canvas shadows dpr={[1, 2]} gl={{ antialias: true }} camera={{ position: [10, 10, 10], fov: 50 }}>
+                <ambientLight intensity={0.8} />
+                <directionalLight position={[15, 20, 15]} intensity={1.2} castShadow />
                 <pointLight position={[10, 10, 10]} intensity={1} castShadow />
 
                 {viewMode === 'orbit' ? (
@@ -483,8 +680,8 @@ export default function Warehouse3D() {
 
             {/* Item Detail Overlay */}
             {selectedItem && (
-                <div className="absolute bottom-10 right-10 z-20 w-80">
-                    <Card className="bg-slate-900/90 border-slate-700 text-white p-6 backdrop-blur-xl animate-in slide-in-from-bottom-10 fade-in duration-300">
+                <div className="absolute bottom-4 md:bottom-10 left-3 right-3 md:left-auto md:right-10 z-20 md:w-80">
+                    <Card className="bg-slate-900/95 border-slate-700 text-white p-4 md:p-6 backdrop-blur-xl animate-in slide-in-from-bottom-10 fade-in duration-300">
                         <div className="flex justify-between items-start mb-4">
                             <div>
                                 <h2 className="text-xl font-bold text-indigo-400">{selectedItem.Marka}</h2>
